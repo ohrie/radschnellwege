@@ -2531,24 +2531,6 @@
     {
       "type": "Feature",
       "properties": {
-        "_umap_options": {
-          "showLabel": null
-        },
-        "name": "Radfahrer absteigen",
-        "description": "{{http://karabad.de/bilder/gagg.jpg|900}}"
-      },
-      "geometry": {
-        "coordinates": [
-          8.321891,
-          48.799313
-        ],
-        "type": "Point"
-      },
-      "id": "4f3f3a71dfa73332b6368542af8f124a"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "ref": "RS5",
         "accuracy": "rough",
         "from": "Fellbach",

@@ -119,7 +119,11 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "accuracy": "corridor",
+        "to": "Wörth am Rhein",
+        "from": "Karlsruhe"
+      },
       "geometry": {
         "coordinates": [
           [
@@ -142,7 +146,9 @@
     {
       "type": "Feature",
       "properties": {
-        "accuracy": "corridor"
+        "accuracy": "corridor",
+        "from": "Heilbronn",
+        "to": "Obersulm"
       },
       "geometry": {
         "coordinates": [
@@ -162,6 +168,72 @@
         "type": "LineString"
       },
       "id": "07801cf820a0a682ea48949bb07e27e1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "accuracy": "corridor",
+        "name": "Appenweier – Renchen – Achern – Bühl mit Verbindung nach Rheinau – Gambsheim",
+        "website": "https://www.region-suedlicher-oberrhein.de/de/projekte/radschnellwege/index.php"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              8.189713,
+              48.786812
+            ],
+            [
+              8.16698,
+              48.761957
+            ],
+            [
+              8.154581,
+              48.726865
+            ],
+            [
+              8.131331,
+              48.693796
+            ],
+            [
+              8.110148,
+              48.668212
+            ],
+            [
+              8.076049,
+              48.627592
+            ],
+            [
+              8.011467,
+              48.585914
+            ],
+            [
+              7.978401,
+              48.555829
+            ],
+            [
+              7.979435,
+              48.538386
+            ]
+          ],
+          [
+            [
+              8.075872,
+              48.624824
+            ],
+            [
+              7.930586,
+              48.668095
+            ],
+            [
+              7.880527,
+              48.692449
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "id": "0a12186d95b75e6933db8edb388337d7"
     },
     {
       "type": "Feature",
@@ -201,7 +273,9 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "accuracy": "corridor"
+      },
       "geometry": {
         "coordinates": [
           [
@@ -373,7 +447,10 @@
     {
       "type": "Feature",
       "properties": {
-        "ref": "RS10"
+        "ref": "RS10",
+        "accuracy": "corridor",
+        "from": "Karlsruhe",
+        "to": "Ettlingen"
       },
       "geometry": {
         "coordinates": [
@@ -396,8 +473,7 @@
         "accuracy": "corridor",
         "state": "planning",
         "from": "Erlangen",
-        "to": "Herzogenaurach",
-        "name": "Erlangen <-> Herzogenaurach"
+        "to": "Herzogenaurach"
       },
       "geometry": {
         "coordinates": [
@@ -442,26 +518,12 @@
       "type": "Feature",
       "properties": {
         "accuracy": "corridor",
-        "name": "Oberrhein"
+        "name": "Südlicher Oberrhein",
+        "website": "https://www.region-suedlicher-oberrhein.de/de/projekte/radschnellwege/index.php",
+        "state": "evaluation"
       },
       "geometry": {
         "coordinates": [
-          [
-            8.173712,
-            48.779396
-          ],
-          [
-            8.130523,
-            48.691089
-          ],
-          [
-            8.08141,
-            48.626205
-          ],
-          [
-            7.980786,
-            48.542207
-          ],
           [
             7.938859,
             48.460453
@@ -475,6 +537,14 @@
             48.248055
           ],
           [
+            7.7662,
+            48.188787
+          ],
+          [
+            7.785525,
+            48.148967
+          ],
+          [
             7.845645,
             48.117106
           ]
@@ -486,185 +556,10 @@
     {
       "type": "Feature",
       "properties": {
-        "accuracy": "corridor",
-        "from": "Adlershof",
-        "to": "Neukölln/Kreuzberg",
-        "length": 20,
-        "name": "Y-Trasse ",
-        "ref": "RSV 1",
-        "state": "planning",
-        "website": "https://www.infravelo.de/projekt/y-trasse/"
-      },
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              13.459531,
-              52.454924
-            ],
-            [
-              13.45475,
-              52.459052
-            ],
-            [
-              13.448573,
-              52.459294
-            ],
-            [
-              13.441414,
-              52.458468
-            ],
-            [
-              13.44012,
-              52.463263
-            ],
-            [
-              13.437584,
-              52.463054
-            ],
-            [
-              13.435524,
-              52.469024
-            ],
-            [
-              13.421019,
-              52.467379
-            ],
-            [
-              13.420464,
-              52.471273
-            ],
-            [
-              13.41954,
-              52.472238
-            ],
-            [
-              13.418055,
-              52.47809
-            ],
-            [
-              13.418266,
-              52.479249
-            ],
-            [
-              13.417976,
-              52.48023
-            ]
-          ],
-          [
-            [
-              13.423284,
-              52.486487
-            ],
-            [
-              13.423258,
-              52.482128
-            ],
-            [
-              13.420828,
-              52.481871
-            ],
-            [
-              13.421066,
-              52.480246
-            ],
-            [
-              13.419164,
-              52.480133
-            ],
-            [
-              13.417844,
-              52.480198
-            ],
-            [
-              13.406302,
-              52.482707
-            ],
-            [
-              13.407226,
-              52.486052
-            ],
-            [
-              13.408468,
-              52.487291
-            ],
-            [
-              13.407728,
-              52.489012
-            ]
-          ],
-          [
-            [
-              13.52694,
-              52.426492
-            ],
-            [
-              13.513071,
-              52.427431
-            ],
-            [
-              13.507021,
-              52.429102
-            ],
-            [
-              13.46587,
-              52.448934
-            ],
-            [
-              13.461247,
-              52.453247
-            ],
-            [
-              13.452971,
-              52.464098
-            ],
-            [
-              13.45377,
-              52.46535
-            ],
-            [
-              13.457708,
-              52.466671
-            ],
-            [
-              13.4645,
-              52.470252
-            ],
-            [
-              13.465299,
-              52.477275
-            ],
-            [
-              13.460164,
-              52.479271
-            ],
-            [
-              13.459978,
-              52.484232
-            ],
-            [
-              13.459183,
-              52.48886
-            ],
-            [
-              13.459205,
-              52.490398
-            ],
-            [
-              13.445629,
-              52.493855
-            ]
-          ]
-        ],
-        "type": "MultiLineString"
-      },
-      "id": "259ae60dfa8b7ac5df1f31f6d2fb8f2c"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "from": "Nürnberg",
-        "to": "Herzogenaurach"
+        "to": "Herzogenaurach",
+        "accuracy": "corridor",
+        "state": "evaluation"
       },
       "geometry": {
         "coordinates": [
@@ -781,7 +676,8 @@
       "type": "Feature",
       "properties": {
         "from": "Tübingen",
-        "to": "Hechingen"
+        "to": "Hechingen",
+        "accuracy": "corridor"
       },
       "geometry": {
         "coordinates": [
@@ -1598,7 +1494,9 @@
         "ref": "RS6",
         "name": "Breisgau Y",
         "from": "Freiburg",
-        "to": "Emmendingen/Waldkirch"
+        "to": "Emmendingen/Waldkirch",
+        "accuracy": "corridor",
+        "website": "https://www.breisgau-y.de/"
       },
       "geometry": {
         "coordinates": [
@@ -1618,8 +1516,8 @@
               48.089407
             ],
             [
-              7.885124,
-              48.063364
+              7.882604,
+              48.064766
             ],
             [
               7.848643,
@@ -1673,6 +1571,28 @@
     {
       "type": "Feature",
       "properties": {
+        "from": "Freiburg",
+        "to": "Kirchzarten",
+        "accuracy": "corridor"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            7.962844,
+            47.96777
+          ],
+          [
+            7.840905,
+            47.994977
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "3fcf597735f470bc42180baaeeec42f1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "ref": "RS7",
         "accuracy": "corridor",
         "from": "Lörrach",
@@ -1720,7 +1640,10 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "accuracy": "corridor",
+        "from": "Karlsruhe"
+      },
       "geometry": {
         "coordinates": [
           [
@@ -1993,300 +1916,6 @@
     {
       "type": "Feature",
       "properties": {
-        "ref": "RS1",
-        "from": "Stuttgart",
-        "to": "Böblingen"
-      },
-      "geometry": {
-        "coordinates": [
-          [
-            9.052891,
-            48.692582
-          ],
-          [
-            9.054946,
-            48.693133
-          ],
-          [
-            9.05577,
-            48.693381
-          ],
-          [
-            9.056614,
-            48.693674
-          ],
-          [
-            9.058355,
-            48.694319
-          ],
-          [
-            9.060914,
-            48.695241
-          ],
-          [
-            9.064411,
-            48.696436
-          ],
-          [
-            9.064617,
-            48.696533
-          ],
-          [
-            9.064824,
-            48.696657
-          ],
-          [
-            9.06528,
-            48.696945
-          ],
-          [
-            9.066197,
-            48.697541
-          ],
-          [
-            9.067192,
-            48.698187
-          ],
-          [
-            9.067735,
-            48.698524
-          ],
-          [
-            9.068601,
-            48.698989
-          ],
-          [
-            9.069995,
-            48.699705
-          ],
-          [
-            9.070668,
-            48.700199
-          ],
-          [
-            9.071198,
-            48.700681
-          ],
-          [
-            9.071671,
-            48.701294
-          ],
-          [
-            9.07205,
-            48.702014
-          ],
-          [
-            9.072232,
-            48.702335
-          ],
-          [
-            9.072243,
-            48.702355
-          ],
-          [
-            9.072651,
-            48.703106
-          ],
-          [
-            9.073507,
-            48.704723
-          ],
-          [
-            9.073657,
-            48.705016
-          ],
-          [
-            9.074373,
-            48.706358
-          ],
-          [
-            9.074673,
-            48.706855
-          ],
-          [
-            9.074985,
-            48.707263
-          ],
-          [
-            9.075187,
-            48.707446
-          ],
-          [
-            9.075373,
-            48.707589
-          ],
-          [
-            9.07563,
-            48.707764
-          ],
-          [
-            9.075894,
-            48.707914
-          ],
-          [
-            9.076076,
-            48.708002
-          ],
-          [
-            9.076402,
-            48.708143
-          ],
-          [
-            9.076666,
-            48.708272
-          ],
-          [
-            9.076947,
-            48.708382
-          ],
-          [
-            9.077075,
-            48.708429
-          ],
-          [
-            9.077872,
-            48.708761
-          ],
-          [
-            9.078193,
-            48.708905
-          ],
-          [
-            9.078514,
-            48.709066
-          ],
-          [
-            9.078799,
-            48.70923
-          ],
-          [
-            9.079059,
-            48.709405
-          ],
-          [
-            9.079287,
-            48.709575
-          ],
-          [
-            9.07952,
-            48.709773
-          ],
-          [
-            9.079884,
-            48.710115
-          ],
-          [
-            9.080272,
-            48.710476
-          ],
-          [
-            9.081191,
-            48.711373
-          ],
-          [
-            9.082187,
-            48.712303
-          ],
-          [
-            9.082443,
-            48.712567
-          ],
-          [
-            9.083882,
-            48.713964
-          ],
-          [
-            9.084094,
-            48.71416
-          ],
-          [
-            9.084497,
-            48.714565
-          ],
-          [
-            9.084914,
-            48.714958
-          ],
-          [
-            9.085107,
-            48.715139
-          ],
-          [
-            9.085238,
-            48.715266
-          ],
-          [
-            9.085294,
-            48.715352
-          ],
-          [
-            9.085318,
-            48.715457
-          ],
-          [
-            9.085322,
-            48.71547
-          ],
-          [
-            9.085351,
-            48.715547
-          ],
-          [
-            9.08546,
-            48.715815
-          ],
-          [
-            9.085532,
-            48.715884
-          ],
-          [
-            9.085997,
-            48.716303
-          ],
-          [
-            9.086012,
-            48.716315
-          ],
-          [
-            9.08605,
-            48.716346
-          ],
-          [
-            9.086082,
-            48.716364
-          ],
-          [
-            9.086119,
-            48.716374
-          ],
-          [
-            9.086176,
-            48.716384
-          ],
-          [
-            9.086248,
-            48.71639
-          ],
-          [
-            9.086342,
-            48.716396
-          ],
-          [
-            9.08642,
-            48.716428
-          ],
-          [
-            9.086448,
-            48.716461
-          ]
-        ],
-        "type": "LineString"
-      },
-      "id": "45f01560fe8f6a1540cc2c67000472a6"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "from": "Mainz",
         "to": "Wiesbaden"
       },
@@ -2307,7 +1936,10 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "accuracy": "corridor",
+        "state": "planning"
+      },
       "geometry": {
         "coordinates": [
           [
@@ -2335,7 +1967,8 @@
       "type": "Feature",
       "properties": {
         "from": "Bruchsal",
-        "to": "Karlsruhe"
+        "to": "Karlsruhe",
+        "accuracy": "corridor"
       },
       "geometry": {
         "coordinates": [
@@ -2897,28 +2530,6 @@
     },
     {
       "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "coordinates": [
-          [
-            13.445841,
-            52.49392
-          ],
-          [
-            13.442381,
-            52.493952
-          ],
-          [
-            13.427194,
-            52.499065
-          ]
-        ],
-        "type": "LineString"
-      },
-      "id": "4de3426271458766ac1117ea3ed5da0e"
-    },
-    {
-      "type": "Feature",
       "properties": {
         "_umap_options": {
           "showLabel": null
@@ -3339,6 +2950,393 @@
         "type": "LineString"
       },
       "id": "534996cdcc1678f76d8f1c402c589734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ref": "RS1",
+        "from": "Stuttgart",
+        "to": "Böblingen/Sindelfingen",
+        "accuracy": "exact"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              9.028126,
+              48.693654
+            ],
+            [
+              9.030213,
+              48.694485
+            ],
+            [
+              9.036415,
+              48.693817
+            ],
+            [
+              9.042511,
+              48.689835
+            ],
+            [
+              9.055497,
+              48.693049
+            ],
+            [
+              9.056341,
+              48.693342
+            ],
+            [
+              9.058082,
+              48.693987
+            ],
+            [
+              9.060641,
+              48.694909
+            ],
+            [
+              9.064138,
+              48.696104
+            ],
+            [
+              9.064344,
+              48.696201
+            ],
+            [
+              9.064551,
+              48.696325
+            ],
+            [
+              9.065007,
+              48.696613
+            ],
+            [
+              9.065924,
+              48.697209
+            ],
+            [
+              9.066919,
+              48.697855
+            ],
+            [
+              9.067462,
+              48.698192
+            ],
+            [
+              9.068328,
+              48.698657
+            ],
+            [
+              9.069722,
+              48.699373
+            ],
+            [
+              9.070395,
+              48.699867
+            ],
+            [
+              9.070925,
+              48.700349
+            ],
+            [
+              9.071398,
+              48.700962
+            ],
+            [
+              9.071777,
+              48.701682
+            ],
+            [
+              9.071959,
+              48.702003
+            ],
+            [
+              9.07197,
+              48.702023
+            ],
+            [
+              9.072378,
+              48.702774
+            ],
+            [
+              9.073234,
+              48.704391
+            ],
+            [
+              9.073384,
+              48.704684
+            ],
+            [
+              9.0741,
+              48.706026
+            ],
+            [
+              9.0744,
+              48.706523
+            ],
+            [
+              9.074712,
+              48.706931
+            ],
+            [
+              9.074914,
+              48.707114
+            ],
+            [
+              9.0751,
+              48.707257
+            ],
+            [
+              9.075357,
+              48.707432
+            ],
+            [
+              9.075621,
+              48.707582
+            ],
+            [
+              9.075803,
+              48.70767
+            ],
+            [
+              9.076129,
+              48.707811
+            ],
+            [
+              9.076393,
+              48.70794
+            ],
+            [
+              9.076674,
+              48.70805
+            ],
+            [
+              9.076802,
+              48.708097
+            ],
+            [
+              9.077599,
+              48.708429
+            ],
+            [
+              9.07792,
+              48.708573
+            ],
+            [
+              9.078241,
+              48.708734
+            ],
+            [
+              9.078526,
+              48.708898
+            ],
+            [
+              9.078786,
+              48.709073
+            ],
+            [
+              9.079014,
+              48.709243
+            ],
+            [
+              9.079247,
+              48.709441
+            ],
+            [
+              9.079611,
+              48.709783
+            ],
+            [
+              9.079999,
+              48.710144
+            ],
+            [
+              9.080918,
+              48.711041
+            ],
+            [
+              9.081914,
+              48.711971
+            ],
+            [
+              9.08217,
+              48.712235
+            ],
+            [
+              9.083609,
+              48.713632
+            ],
+            [
+              9.083821,
+              48.713828
+            ],
+            [
+              9.084224,
+              48.714233
+            ],
+            [
+              9.084641,
+              48.714626
+            ],
+            [
+              9.084834,
+              48.714807
+            ],
+            [
+              9.084965,
+              48.714934
+            ],
+            [
+              9.085021,
+              48.71502
+            ],
+            [
+              9.085045,
+              48.715125
+            ],
+            [
+              9.085049,
+              48.715138
+            ],
+            [
+              9.085078,
+              48.715215
+            ],
+            [
+              9.085187,
+              48.715483
+            ],
+            [
+              9.085259,
+              48.715552
+            ],
+            [
+              9.085724,
+              48.715971
+            ],
+            [
+              9.085739,
+              48.715983
+            ],
+            [
+              9.085777,
+              48.716014
+            ],
+            [
+              9.085809,
+              48.716032
+            ],
+            [
+              9.085846,
+              48.716042
+            ],
+            [
+              9.085903,
+              48.716052
+            ],
+            [
+              9.085975,
+              48.716058
+            ],
+            [
+              9.086069,
+              48.716064
+            ],
+            [
+              9.086147,
+              48.716096
+            ],
+            [
+              9.086175,
+              48.716129
+            ]
+          ],
+          [
+            [
+              9.072352,
+              48.702767
+            ],
+            [
+              9.071039,
+              48.702852
+            ],
+            [
+              9.070009,
+              48.70326
+            ],
+            [
+              9.068335,
+              48.703888
+            ],
+            [
+              9.066146,
+              48.703634
+            ],
+            [
+              9.064652,
+              48.703583
+            ],
+            [
+              9.062444,
+              48.702534
+            ],
+            [
+              9.061967,
+              48.70184
+            ],
+            [
+              9.061497,
+              48.701549
+            ],
+            [
+              9.060389,
+              48.701569
+            ],
+            [
+              9.059427,
+              48.701692
+            ],
+            [
+              9.058132,
+              48.701623
+            ],
+            [
+              9.056849,
+              48.701795
+            ],
+            [
+              9.054674,
+              48.70239
+            ],
+            [
+              9.052309,
+              48.702657
+            ],
+            [
+              9.051228,
+              48.703006
+            ],
+            [
+              9.04856,
+              48.703725
+            ],
+            [
+              9.048165,
+              48.703729
+            ],
+            [
+              9.047416,
+              48.703271
+            ],
+            [
+              9.04645,
+              48.703097
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "id": "56b14a3e4df7c1bf032a687004aa7d2e"
     },
     {
       "type": "Feature",
@@ -4485,8 +4483,30 @@
     {
       "type": "Feature",
       "properties": {
+        "accuracy": "corridor",
+        "state": "evaluation",
+        "from": "Reutlingen",
+        "to": "Metzingen"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            9.209581,
+            48.493478
+          ],
+          [
+            9.273063,
+            48.532728
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "5a42d146c5406af58acf20a6126cf9f1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "ref": "RS3",
-        "name": "Heilbronn <-> Bad Wimpfen",
         "from": "Heilbronn",
         "to": "Bad Wimpfen",
         "accuracy": "corridor",
@@ -5030,10 +5050,12 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "RS4/RS14",
-        "nam": "Stuttgart <-> Geislingen",
+        "ref": "RS4/RS14",
         "website": "https://radschnellweg-neckartal.de/",
-        "accuracy": "corridor"
+        "accuracy": "corridor",
+        "state": "planning",
+        "from": "Stuttgart",
+        "to": "Geislingen"
       },
       "geometry": {
         "coordinates": [
@@ -5104,20 +5126,74 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "accuracy": "corridor",
+        "state": "evaluation",
+        "to": "Weil in Schönbuch",
+        "from": "Renningen",
+        "pilot_study": "file:///home/henri/Downloads/RSV_Endbericht_gekuerzt_Feb19.pdf"
+      },
       "geometry": {
         "coordinates": [
           [
-            8.939163,
-            48.764997
+            8.936733,
+            48.768199
           ],
           [
-            9.001205,
-            48.706718
+            8.944661,
+            48.748028
           ],
           [
-            9.059864,
-            48.617061
+            8.96178,
+            48.741711
+          ],
+          [
+            8.981492,
+            48.724218
+          ],
+          [
+            8.975477,
+            48.714336
+          ],
+          [
+            8.974038,
+            48.702471
+          ],
+          [
+            8.978786,
+            48.688363
+          ],
+          [
+            8.98645,
+            48.677437
+          ],
+          [
+            9.010872,
+            48.676316
+          ],
+          [
+            9.010787,
+            48.670279
+          ],
+          [
+            9.00674,
+            48.663388
+          ],
+          [
+            9.004553,
+            48.63732
+          ],
+          [
+            9.02177,
+            48.627286
+          ],
+          [
+            9.033739,
+            48.624678
+          ],
+          [
+            9.04782,
+            48.622623
           ]
         ],
         "type": "LineString"
@@ -5475,11 +5551,116 @@
     {
       "type": "Feature",
       "properties": {
+        "from": "Offenburg",
+        "to": "Appenweier",
+        "pilot_study": "https://www.region-suedlicher-oberrhein.de/de/projekte/radschnellwege/Ergaenzende_Untersuchung_MS_Grenzueberschreitender_RSW_OG_Stra.pdf",
+        "state": "planning",
+        "accuracy": "corridor"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            7.977841,
+            48.536686
+          ],
+          [
+            7.966276,
+            48.520562
+          ],
+          [
+            7.966633,
+            48.518921
+          ],
+          [
+            7.965847,
+            48.511891
+          ],
+          [
+            7.963833,
+            48.507888
+          ],
+          [
+            7.962752,
+            48.504503
+          ],
+          [
+            7.962703,
+            48.501118
+          ],
+          [
+            7.96231,
+            48.499328
+          ],
+          [
+            7.960443,
+            48.497505
+          ],
+          [
+            7.957937,
+            48.4935
+          ],
+          [
+            7.957053,
+            48.490831
+          ],
+          [
+            7.956584,
+            48.485262
+          ],
+          [
+            7.955707,
+            48.482828
+          ],
+          [
+            7.954523,
+            48.48132
+          ],
+          [
+            7.95052,
+            48.479169
+          ],
+          [
+            7.948032,
+            48.476578
+          ],
+          [
+            7.945995,
+            48.474646
+          ],
+          [
+            7.946042,
+            48.473217
+          ],
+          [
+            7.943839,
+            48.473076
+          ],
+          [
+            7.942157,
+            48.468129
+          ],
+          [
+            7.941707,
+            48.467799
+          ],
+          [
+            7.938462,
+            48.473484
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "76fabc9c3b4c3bfeee4fbf2a85675755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "ref": "RS9",
-        "name": "Friedrichshafen <-> Baindt",
         "accuracy": "corridor",
         "length": 29,
-        "website": "https://www.rvbo.de/Projekte/Radschnellverbindung-Friedrichshafen-Baindt"
+        "website": "https://www.rvbo.de/Projekte/Radschnellverbindung-Friedrichshafen-Baindt",
+        "from": "Friedrichshafen",
+        "to": "Baindt"
       },
       "geometry": {
         "coordinates": [
@@ -5604,7 +5785,12 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "accuracy": "corridor",
+        "name": "Freiburg – Bad Krozingen – Heitersheim – Müllheim",
+        "from": "Freiburg",
+        "to": "(– Bad Krozingen – Heitersheim – ) Müllheim"
+      },
       "geometry": {
         "coordinates": [
           [
@@ -5612,8 +5798,16 @@
             47.997862
           ],
           [
-            7.628083,
-            47.810059
+            7.697913,
+            47.906942
+          ],
+          [
+            7.647442,
+            47.865481
+          ],
+          [
+            7.611663,
+            47.812961
           ]
         ],
         "type": "LineString"
@@ -5623,7 +5817,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Heilbronn <-> Lauffen am Neckar",
         "website": "https://radschnellweg-hn.de/",
         "accuracy": "corridor",
         "from": "Heilbronn",
@@ -6064,7 +6257,11 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "accuracy": "corridor",
+        "to": "Rust",
+        "from": "Ringsheim"
+      },
       "geometry": {
         "coordinates": [
           [
@@ -6146,7 +6343,7 @@
     {
       "type": "Feature",
       "properties": {
-        "state": "planning",
+        "state": "evaluation",
         "accuracy": "corridor",
         "website": "https://www.landkreis-ludwigsburg.de/de/verkehr-sicherheit-ordnung/radverkehr/radschnellwege/machbarkeitsstudie-radschnellverbindung-vaihingenenz-stuttgart/",
         "to": "Vaihingen (Enz) (- Pforzheim)",
@@ -6517,25 +6714,10 @@
     },
     {
       "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "coordinates": [
-          [
-            11.572036,
-            48.136657
-          ],
-          [
-            11.653553,
-            48.251315
-          ]
-        ],
-        "type": "LineString"
+      "properties": {
+        "accuracy": "corridor",
+        "state": "planning"
       },
-      "id": "aac61d9e90901ac7ca3f1b6b41bc296e"
-    },
-    {
-      "type": "Feature",
-      "properties": {},
       "geometry": {
         "coordinates": [
           [
@@ -6570,6 +6752,89 @@
         "type": "LineString"
       },
       "id": "aacfc43f6ce5c4f03dbd224b0ea052ab"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "from": "München",
+        "to": "Garching",
+        "state": "planning",
+        "accuracy": "corridor",
+        "website": "https://www.pv-muenchen.de/leistungen/planung/verkehrskonzepte/radschnellwege/machbarkeitsstudie-radschnellweg-landkreis-muenchen",
+        "length": 13
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              11.602208,
+              48.249168
+            ],
+            [
+              11.592273,
+              48.270993
+            ]
+          ],
+          [
+            [
+              11.586397,
+              48.211149
+            ],
+            [
+              11.587206,
+              48.221998
+            ],
+            [
+              11.597171,
+              48.229257
+            ],
+            [
+              11.60213,
+              48.249231
+            ],
+            [
+              11.613737,
+              48.250615
+            ],
+            [
+              11.630063,
+              48.249519
+            ],
+            [
+              11.631159,
+              48.252199
+            ],
+            [
+              11.637832,
+              48.251471
+            ],
+            [
+              11.647592,
+              48.260535
+            ],
+            [
+              11.658298,
+              48.262527
+            ],
+            [
+              11.669749,
+              48.260954
+            ]
+          ],
+          [
+            [
+              11.658308,
+              48.262574
+            ],
+            [
+              11.665047,
+              48.27048
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "id": "abab11335ef09423e42164babe2d5ea8"
     },
     {
       "type": "Feature",
@@ -7375,7 +7640,7 @@
         "from": "Karlsruhe",
         "to": "Baden-Baden",
         "length": 17,
-        "accuracy": "exact",
+        "accuracy": "rough",
         "state": "planning"
       },
       "geometry": {
@@ -8270,7 +8535,12 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "accuracy": "corridor",
+        "from": "Ditzingen",
+        "to": "Weil der Stadt",
+        "state": "evaluation"
+      },
       "geometry": {
         "coordinates": [
           [
@@ -8286,12 +8556,12 @@
             48.793491
           ],
           [
-            8.935027,
-            48.764253
+            8.936842,
+            48.768591
           ],
           [
-            8.870728,
-            48.743429
+            8.872997,
+            48.750761
           ]
         ],
         "type": "LineString"
@@ -8337,7 +8607,7 @@
       "properties": {
         "from": "Stuttgart",
         "to": "Leonberg",
-        "state": "planning",
+        "state": "evaluation",
         "accuracy": "corridor",
         "website": "https://www.landkreis-ludwigsburg.de/fileadmin/user_upload/seiteninhalte/verkehr-sicherheit/Radverkehr/Machbarkeitsstudie_RSV_Leonberg-Stuttgart.pdf",
         "length": 16,
@@ -8524,34 +8794,12 @@
     },
     {
       "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "coordinates": [
-          [
-            13.445656,
-            52.494
-          ],
-          [
-            13.444837,
-            52.495142
-          ],
-          [
-            13.432239,
-            52.499274
-          ]
-        ],
-        "type": "LineString"
-      },
-      "id": "c77ce93e6c94efec2c41ab69ca51a07f"
-    },
-    {
-      "type": "Feature",
       "properties": {
         "website": "https://www.landkreis-ludwigsburg.de/de/verkehr-sicherheit-ordnung/radverkehr/radschnellwege/",
         "length": 15,
         "from": "Bietigheim",
         "to": "Stuttgart",
-        "state": "planning",
+        "state": "evaluation",
         "accuracy": "corridor",
         "name": "RSV Bietigheim-Bissingen-Kornwestheim"
       },
@@ -8779,18 +9027,68 @@
       "properties": {
         "ref": "RS12",
         "name": "Offenburg <-> Gengenbach",
-        "accuracy": "corridor",
-        "state": "planning"
+        "accuracy": "rough",
+        "state": "planning",
+        "pilot_study": "https://www.region-suedlicher-oberrhein.de/de/projekte/radschnellwege/Ergaenzende_Untersuchung_MS_OG_GEN.pdf",
+        "website": "https://www.region-suedlicher-oberrhein.de/de/projekte/radschnellwege/index.php"
       },
       "geometry": {
         "coordinates": [
           [
-            7.93759,
-            48.453814
+            7.929935,
+            48.479151
           ],
           [
-            8.017122,
-            48.399585
+            7.934677,
+            48.467011
+          ],
+          [
+            7.942266,
+            48.45192
+          ],
+          [
+            7.943821,
+            48.449545
+          ],
+          [
+            7.947044,
+            48.448046
+          ],
+          [
+            7.947668,
+            48.449011
+          ],
+          [
+            7.949056,
+            48.44887
+          ],
+          [
+            7.95364,
+            48.44942
+          ],
+          [
+            7.958304,
+            48.448524
+          ],
+          [
+            7.961534,
+            48.44653
+          ],
+          [
+            7.971038,
+            48.432774
+          ],
+          [
+            7.97679,
+            48.425972
+          ],
+          [
+            8.008144,
+            48.403263
+          ],
+          [
+            8.010766,
+            48.403986
           ]
         ],
         "type": "LineString"
@@ -8800,8 +9098,12 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Singen <-> Konstanz",
-        "accuracy": "corridor"
+        "accuracy": "corridor",
+        "from": "Singen",
+        "to": "Konstanz",
+        "website": "https://www.lrakn.de/service-und-verwaltung/aemter/strassenbauamt/machbarkeitsstudie+radschnellverbindung+zwischen+konstanz+und+singen",
+        "pilot_study": "https://www.lrakn.de/site/lrakn/get/params_E-610455774/2977538/KONRSW_2021-04-15_Bericht.pdf",
+        "state": "evaluation"
       },
       "geometry": {
         "coordinates": [
@@ -8922,7 +9224,211 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "accuracy": "corridor",
+        "from": "Adlershof",
+        "to": "Neukölln/Kreuzberg",
+        "length": 20,
+        "name": "Y-Trasse ",
+        "ref": "RSV 1",
+        "state": "planning",
+        "website": "https://www.infravelo.de/projekt/y-trasse/"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              13.459531,
+              52.454924
+            ],
+            [
+              13.45475,
+              52.459052
+            ],
+            [
+              13.448573,
+              52.459294
+            ],
+            [
+              13.441414,
+              52.458468
+            ],
+            [
+              13.44012,
+              52.463263
+            ],
+            [
+              13.437584,
+              52.463054
+            ],
+            [
+              13.435524,
+              52.469024
+            ],
+            [
+              13.421019,
+              52.467379
+            ],
+            [
+              13.420464,
+              52.471273
+            ],
+            [
+              13.41954,
+              52.472238
+            ],
+            [
+              13.418055,
+              52.47809
+            ],
+            [
+              13.418266,
+              52.479249
+            ],
+            [
+              13.417976,
+              52.48023
+            ]
+          ],
+          [
+            [
+              13.52694,
+              52.426492
+            ],
+            [
+              13.513071,
+              52.427431
+            ],
+            [
+              13.507021,
+              52.429102
+            ],
+            [
+              13.46587,
+              52.448934
+            ],
+            [
+              13.461247,
+              52.453247
+            ],
+            [
+              13.452971,
+              52.464098
+            ],
+            [
+              13.45377,
+              52.46535
+            ],
+            [
+              13.457708,
+              52.466671
+            ],
+            [
+              13.4645,
+              52.470252
+            ],
+            [
+              13.465299,
+              52.477275
+            ],
+            [
+              13.460164,
+              52.479271
+            ],
+            [
+              13.459978,
+              52.484232
+            ],
+            [
+              13.459183,
+              52.48886
+            ],
+            [
+              13.459205,
+              52.490398
+            ],
+            [
+              13.445629,
+              52.493855
+            ]
+          ],
+          [
+            [
+              13.445841,
+              52.49392
+            ],
+            [
+              13.442381,
+              52.493952
+            ],
+            [
+              13.427194,
+              52.499065
+            ]
+          ],
+          [
+            [
+              13.445656,
+              52.494
+            ],
+            [
+              13.444837,
+              52.495142
+            ],
+            [
+              13.432239,
+              52.499274
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "id": "dcdda1c4f749dac9c947c4cc3e065dac"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "accuracy": "corridor",
+        "from": "Tübingen",
+        "to": "(Metzingen - ) Bad Urach",
+        "state": "evaluation"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            9.399526,
+            48.491805
+          ],
+          [
+            9.34609,
+            48.527701
+          ],
+          [
+            9.277332,
+            48.535867
+          ],
+          [
+            9.198064,
+            48.531445
+          ],
+          [
+            9.119591,
+            48.522288
+          ],
+          [
+            9.061671,
+            48.520803
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "dd78bc9991a68f2f46a43d63e9a0801c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "accuracy": "corridor"
+      },
       "geometry": {
         "coordinates": [
           [
@@ -8978,33 +9484,13 @@
     },
     {
       "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "coordinates": [
-          [
-            8.075872,
-            48.624824
-          ],
-          [
-            7.930586,
-            48.668095
-          ],
-          [
-            7.880527,
-            48.692449
-          ]
-        ],
-        "type": "LineString"
-      },
-      "id": "e42f006ea47a7df0de192b707ca24b9a"
-    },
-    {
-      "type": "Feature",
       "properties": {
         "ref": "FRM2",
         "website": "https://www.schneller-radfahren-kreisgg.de/",
         "from": "Frankfurt",
-        "to": "Groß-Gerau"
+        "to": "Groß-Gerau",
+        "accuracy": "corridor",
+        "state": "planning"
       },
       "geometry": {
         "coordinates": [
@@ -9024,7 +9510,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Hannover <-> Lehrte",
         "accuracy": "rough",
         "from": "Hannover",
         "to": "Lehrte",
@@ -9248,6 +9733,14 @@
             48.057686
           ],
           [
+            7.722718,
+            48.048824
+          ],
+          [
+            7.646589,
+            48.043559
+          ],
+          [
             7.573787,
             48.028284
           ]
@@ -9259,8 +9752,165 @@
     {
       "type": "Feature",
       "properties": {
+        "from": "Böblingen",
+        "to": "Ehningen",
+        "ref": "RS1",
+        "accuracy": "exact",
+        "state": "built"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            8.992574,
+            48.679761
+          ],
+          [
+            8.990838,
+            48.679134
+          ],
+          [
+            8.989856,
+            48.678784
+          ],
+          [
+            8.988802,
+            48.678379
+          ],
+          [
+            8.986729,
+            48.677953
+          ],
+          [
+            8.985089,
+            48.677596
+          ],
+          [
+            8.98444,
+            48.677376
+          ],
+          [
+            8.983277,
+            48.677066
+          ],
+          [
+            8.982776,
+            48.676921
+          ],
+          [
+            8.980515,
+            48.67624
+          ],
+          [
+            8.978959,
+            48.67565
+          ],
+          [
+            8.978081,
+            48.675274
+          ],
+          [
+            8.97756,
+            48.675118
+          ],
+          [
+            8.976943,
+            48.674956
+          ],
+          [
+            8.976494,
+            48.674694
+          ],
+          [
+            8.976297,
+            48.674488
+          ],
+          [
+            8.975242,
+            48.673943
+          ],
+          [
+            8.973871,
+            48.673207
+          ],
+          [
+            8.972893,
+            48.672553
+          ],
+          [
+            8.972015,
+            48.672044
+          ],
+          [
+            8.970924,
+            48.671478
+          ],
+          [
+            8.969954,
+            48.671097
+          ],
+          [
+            8.968883,
+            48.670797
+          ],
+          [
+            8.967873,
+            48.67035
+          ],
+          [
+            8.966486,
+            48.669532
+          ],
+          [
+            8.965444,
+            48.6687
+          ],
+          [
+            8.964064,
+            48.667636
+          ],
+          [
+            8.963664,
+            48.667305
+          ],
+          [
+            8.962437,
+            48.666497
+          ],
+          [
+            8.96034,
+            48.665359
+          ],
+          [
+            8.9587,
+            48.664665
+          ],
+          [
+            8.958075,
+            48.66435
+          ],
+          [
+            8.95781,
+            48.664141
+          ],
+          [
+            8.957453,
+            48.664006
+          ],
+          [
+            8.956515,
+            48.663876
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "f209887cca5593c9c84f35a6c46fc928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "from": "Tübingen",
-        "to": "Reutlingen"
+        "to": "Reutlingen",
+        "accuracy": "corridor"
       },
       "geometry": {
         "coordinates": [
@@ -9276,6 +9926,65 @@
         "type": "LineString"
       },
       "id": "f4370c76d5bec0759f6f7cb0b1d8e46c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "accuracy": "corridor",
+        "from": "Adlershof",
+        "to": "Neukölln/Kreuzberg",
+        "length": 20,
+        "name": "Y-Trasse ",
+        "ref": "RSV 1",
+        "state": "planning",
+        "website": "https://www.infravelo.de/projekt/y-trasse/"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            13.423284,
+            52.486487
+          ],
+          [
+            13.423258,
+            52.482128
+          ],
+          [
+            13.420828,
+            52.481871
+          ],
+          [
+            13.421066,
+            52.480246
+          ],
+          [
+            13.419164,
+            52.480133
+          ],
+          [
+            13.417844,
+            52.480198
+          ],
+          [
+            13.406302,
+            52.482707
+          ],
+          [
+            13.407226,
+            52.486052
+          ],
+          [
+            13.408468,
+            52.487291
+          ],
+          [
+            13.407728,
+            52.489012
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "f8a633c946bfaea64a592a31e5795649"
     },
     {
       "type": "Feature",
@@ -9345,7 +10054,6 @@
         "from": "Nürnberg",
         "to": "Schwabach",
         "accuracy": "corridor",
-        "name": "Nürnberg <-> Schwabach",
         "state": "planning"
       },
       "geometry": {
@@ -9408,25 +10116,94 @@
       "properties": {
         "from": "Offenburg",
         "to": "Kehl (- Straßburg)",
-        "accuracy": "corridor"
+        "accuracy": "corridor",
+        "website": "https://www.region-suedlicher-oberrhein.de/de/projekte/radschnellwege/index.php"
       },
       "geometry": {
         "coordinates": [
           [
-            7.934154,
-            48.474926
+            7.938373,
+            48.473987
           ],
           [
-            7.875061,
-            48.541256
+            7.933411,
+            48.480311
           ],
           [
-            7.812581,
-            48.573891
+            7.928448,
+            48.486634
           ],
           [
-            7.748971,
-            48.587088
+            7.925764,
+            48.501721
+          ],
+          [
+            7.911312,
+            48.521413
+          ],
+          [
+            7.90822,
+            48.528992
+          ],
+          [
+            7.900826,
+            48.536798
+          ],
+          [
+            7.899454,
+            48.540728
+          ],
+          [
+            7.901816,
+            48.544427
+          ],
+          [
+            7.887203,
+            48.547862
+          ],
+          [
+            7.87745,
+            48.55813
+          ],
+          [
+            7.871381,
+            48.563521
+          ],
+          [
+            7.865754,
+            48.565046
+          ],
+          [
+            7.85743,
+            48.567268
+          ],
+          [
+            7.851457,
+            48.567718
+          ],
+          [
+            7.847655,
+            48.565549
+          ],
+          [
+            7.837102,
+            48.563163
+          ],
+          [
+            7.824303,
+            48.561847
+          ],
+          [
+            7.807711,
+            48.564433
+          ],
+          [
+            7.805382,
+            48.574756
+          ],
+          [
+            7.800328,
+            48.573309
           ]
         ],
         "type": "LineString"

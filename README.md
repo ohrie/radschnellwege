@@ -19,15 +19,16 @@ The data model is the following, with example values.
 ```json
 {
     "ref": "RS1", // official abbreviation
-    "name": "Radschnellweg Ruhr RS1", // official name or alternative relation (from <-> to)
+    "name": "Radschnellweg Ruhr RS1", // [optional] only if official name
     "from": "Duisburg",
     "to": "Hamm",
-    "state": "examined | planned | planning | under_construction | partly_built | built | not_realised",
-    "accuracy": "corridor | rough | exact | stopovers",
-    "osm_relation": "5697663",
+    "state": "examined | evaluation | planned | planning | under_construction | partly_built | built | not_realised",
+    "accuracy": "corridor | rough | exact",
+    "osm_relation": "5697663", // [optional] Only if relation exists
     "website": "https://www.radschnellwege.nrw/rs1-radschnellweg-ruhr",
+    "pilot_study": "", // [optional] Link to PDF
     "length": "104.0", // in kilometer
-    "finished": "2024" // year
+    "finished": "2024" // [optional] Year of finishing or expected finishing 
 }
 ```
 

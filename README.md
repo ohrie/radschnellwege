@@ -10,7 +10,9 @@
 
 A list, map, database (call it how you like) of planned, currently build and finished fietssnelweg (Radschnellwege) in Germany. All handmade and updated manually.
 
-The format is a [GeoJSON](https://geojson.org/) file. Just open it in your favorite GeoJSON viewer. The GeoJSON consists of `LineString` and `MultiLineString`, when there are ways which splits (Y-ways). 
+The format is a [GeoJSON](https://geojson.org/) file. Just open it in your favorite GeoJSON viewer. The GeoJSON consists of `LineString` and `MultiLineString`, when there are ways which splits (Y-ways).
+
+Contains map data from OpenStreetMap, which has the attribute `copyright="OpenStreetMap"`; © OpenStreetMap contributors.
 
 ## Attributes
 
@@ -28,7 +30,8 @@ The data model is the following, with example values.
     "website": "https://www.radschnellwege.nrw/rs1-radschnellweg-ruhr",
     "pilot_study": "", // [optional] Link to PDF
     "length": "104.0", // in kilometer
-    "finished": "2024" // [optional] Year of finishing or expected finishing 
+    "finished": "2024", // [optional] Year of finishing or expected finishing 
+    "copyright": "OpenStreetMap" // [optional] If map data from other source
 }
 ```
 

@@ -24,8 +24,9 @@ The data model is the following, with example values.
     "name": "Radschnellweg Ruhr RS1", // [optional] only if official name
     "from": "Duisburg",
     "to": "Hamm",
-    "state": "examined | evaluation | planned | planning | under_construction | partly_built | built | not_realised",
-    "accuracy": "corridor | rough | exact",
+    "state": "examined | evaluation | planned | planning | under_construction | partly_built | built | not_realised | test",
+    "responsible": "Senatsverwaltung Berlin",
+    "accuracy": "corridor | rough | exact", 
     "osm_relation": "5697663", // [optional] Only if relation exists
     "website": "https://www.radschnellwege.nrw/rs1-radschnellweg-ruhr",
     "pilot_study": "", // [optional] Link to PDF

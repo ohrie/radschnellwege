@@ -25,7 +25,7 @@ The data model is the following, with example values.
     "from": "Duisburg",
     "to": "Hamm",
     "state": "examined | evaluation | planned | planning | under_construction | partly_built | built | not_realised | test",
-    "responsible": "Ministerium für Verkehr des Landes Nordrhein-Westfalen",
+    "responsible": "Ministerium für Verkehr des Landes Nordrhein-Westfalen", // contracting authorities
     "federal_state": "Nordrhein-Westfalen",
     "accuracy": "corridor | rough | exact", 
     "osm_relation": "5697663", // [optional] Only if relation exists

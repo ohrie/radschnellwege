@@ -14,11 +14,13 @@ The format is a [GeoJSON](https://geojson.org/) file. Just open it in your favor
 
 Contains map data from OpenStreetMap, which has the attribute `copyright="OpenStreetMap"`; © OpenStreetMap contributors.
 
+Data is an export from [Mapbox Studio](https://studio.mapbox.com/) Data editor.
+
 ## Attributes
 
 The data model is the following, with example values.
 
-```json
+```jsonc
 {
     "ref": "RS1", // official abbreviation
     "name": "Radschnellweg Ruhr RS1", // [optional] only if official name

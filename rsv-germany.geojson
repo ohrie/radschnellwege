@@ -1941,6 +1941,24 @@
     },
     {
       "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
+            7.45103,
+            51.506974
+          ],
+          [
+            7.450965,
+            51.506979
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "03a75a4135e8ccc6c66e3fe0df3369a5"
+    },
+    {
+      "type": "Feature",
       "properties": {
         "from": "Heidelberg",
         "to": "Bruchsal",
@@ -7764,28 +7782,60 @@
     {
       "type": "Feature",
       "properties": {
+        "from": "Ebersbach an der Fils",
+        "to": "Süßen",
         "accuracy": "corridor",
-        "to": "Wörth am Rhein",
-        "from": "Karlsruhe"
+        "state": "planning",
+        "website": "https://www.landkreis-goeppingen.de/start/Landratsamt/radschnellverbindung+filstal.html",
+        "ref": "RS14",
+        "length": 23
       },
       "geometry": {
         "coordinates": [
           [
-            8.397665,
-            49.005696
+            9.76081,
+            48.683083
           ],
           [
-            8.321016,
-            49.038065
+            9.738372,
+            48.690416
           ],
           [
-            8.247979,
-            49.053058
+            9.708336,
+            48.698812
+          ],
+          [
+            9.652475,
+            48.703543
+          ],
+          [
+            9.62408,
+            48.71214
+          ],
+          [
+            9.605049,
+            48.705859
+          ],
+          [
+            9.586028,
+            48.704839
+          ],
+          [
+            9.556086,
+            48.715068
+          ],
+          [
+            9.525351,
+            48.716094
+          ],
+          [
+            9.494733,
+            48.713457
           ]
         ],
         "type": "LineString"
       },
-      "id": "057eaa73dae7f9050914d70879e352aa"
+      "id": "070378d8f494b77992594c98f29464cb"
     },
     {
       "type": "Feature",
@@ -8084,26 +8134,21 @@
     },
     {
       "type": "Feature",
-      "properties": {
-        "ref": "RS10",
-        "accuracy": "corridor",
-        "from": "Karlsruhe",
-        "to": "Ettlingen"
-      },
+      "properties": {},
       "geometry": {
         "coordinates": [
           [
-            8.404332,
-            49.002994
+            7.125295,
+            51.48937
           ],
           [
-            8.407543,
-            48.940459
+            7.124974,
+            51.489307
           ]
         ],
         "type": "LineString"
       },
-      "id": "16109e5001420605360cc9a9279bea13"
+      "id": "173eb80843e66776061b9e5351ffa2b9"
     },
     {
       "type": "Feature",
@@ -8208,6 +8253,50 @@
         "type": "LineString"
       },
       "id": "1a5aab14ef57eabef7e510ce0cb0e3f2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pilot_study": "https://www.region-karlsruhe.de/fileadmin/user_upload/4_Projekte/Radschnellverbindungen/Machbarkeitsstudie_RSV/2019_02_08_RVMO_Bericht.pdf",
+        "length": 30,
+        "from": "Bruchsal",
+        "via": "Karlsruhe",
+        "state": "evaluation",
+        "finished": 2026,
+        "ref": "RS10",
+        "accuracy": "corridor",
+        "to": "Ettlingen"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              8.404332,
+              49.002994
+            ],
+            [
+              8.407543,
+              48.940459
+            ]
+          ],
+          [
+            [
+              8.590458,
+              49.121642
+            ],
+            [
+              8.524273,
+              49.046706
+            ],
+            [
+              8.408319,
+              49.008355
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "id": "21b7ef44272c88b74140383d9c6d8c72"
     },
     {
       "type": "Feature",
@@ -8966,6 +9055,24 @@
         "type": "LineString"
       },
       "id": "33247b9d0bfaf3a2eba3dcf6c1592bc6"
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
+            6.967298,
+            51.463709
+          ],
+          [
+            6.967317,
+            51.463719
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "3446a5b647af76c56c04531844d3aeef"
     },
     {
       "type": "Feature",
@@ -13606,6 +13713,24 @@
     },
     {
       "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
+            7.449961,
+            51.49981
+          ],
+          [
+            7.449945,
+            51.499432
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "3fb7eab5a6a393ac4ac2a6eca2415130"
+    },
+    {
+      "type": "Feature",
       "properties": {
         "from": "Freiburg",
         "to": "Kirchzarten",
@@ -13678,23 +13803,93 @@
     {
       "type": "Feature",
       "properties": {
-        "accuracy": "corridor",
-        "from": "Karlsruhe"
+        "name": "City-Ring Stuttgart",
+        "from": "Stuttgart",
+        "to": "Stuttgart",
+        "accuracy": "rough",
+        "state": "evaluation",
+        "piloty_study": "https://www.adfc-bw.de/fileadmin/dateien/Gliederungen/KV_Stuttgart/Texte/PDFs/Studie_Juli_2020.pdf"
       },
       "geometry": {
         "coordinates": [
           [
-            8.413206,
-            49.002834
+            [
+              9.185456,
+              48.789492
+            ],
+            [
+              9.179514,
+              48.784617
+            ],
+            [
+              9.177318,
+              48.78191
+            ],
+            [
+              9.176112,
+              48.779002
+            ],
+            [
+              9.170003,
+              48.773561
+            ],
+            [
+              9.172419,
+              48.771267
+            ],
+            [
+              9.174398,
+              48.769395
+            ],
+            [
+              9.179502,
+              48.773205
+            ],
+            [
+              9.183823,
+              48.777003
+            ],
+            [
+              9.187016,
+              48.781489
+            ],
+            [
+              9.190382,
+              48.786234
+            ],
+            [
+              9.189583,
+              48.787146
+            ],
+            [
+              9.192654,
+              48.789521
+            ]
           ],
           [
-            8.554088,
-            48.991724
+            [
+              9.172814,
+              48.770476
+            ],
+            [
+              9.168108,
+              48.764859
+            ]
+          ],
+          [
+            [
+              9.179172,
+              48.784059
+            ],
+            [
+              9.186676,
+              48.781269
+            ]
           ]
         ],
-        "type": "LineString"
+        "type": "MultiLineString"
       },
-      "id": "41191d7a3e36c0506ab86cc4e801bc9f"
+      "id": "41d48b3dfbf53b2c80768eed2aacaf89"
     },
     {
       "type": "Feature",
@@ -13931,6 +14126,52 @@
     },
     {
       "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
+            7.109546,
+            51.484849
+          ],
+          [
+            7.109313,
+            51.484777
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "46527f310553fab2f243c4a4dc9ddf6b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "from": "Stuttgart",
+        "to": "Fellbach",
+        "accuracy": "corridor",
+        "state": "evaluation",
+        "pilot_study": "https://www.adfc-bw.de/fileadmin/dateien/Gliederungen/KV_Stuttgart/Texte/PDFs/Studie_Juli_2020.pdf"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            9.213679,
+            48.800331
+          ],
+          [
+            9.220787,
+            48.803769
+          ],
+          [
+            9.252431,
+            48.809889
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "465eea801577a81e441f8332b7b9b512"
+    },
+    {
+      "type": "Feature",
       "properties": {
         "from": "Mainz",
         "to": "Wiesbaden"
@@ -13984,28 +14225,60 @@
     {
       "type": "Feature",
       "properties": {
-        "from": "Bruchsal",
-        "to": "Karlsruhe",
-        "accuracy": "corridor"
+        "from": "Stuttgart",
+        "to": "Kornwestheim",
+        "state": "evaluation",
+        "accuracy": "corridor",
+        "pilot_study": "https://www.adfc-bw.de/fileadmin/dateien/Gliederungen/KV_Stuttgart/Texte/PDFs/Studie_Juli_2020.pdf"
       },
       "geometry": {
         "coordinates": [
           [
-            8.590458,
-            49.121642
+            9.186199,
+            48.789825
           ],
           [
-            8.524273,
-            49.046706
+            9.193054,
+            48.794471
           ],
           [
-            8.408319,
-            49.008355
+            9.195096,
+            48.802152
+          ],
+          [
+            9.179406,
+            48.815085
+          ],
+          [
+            9.172993,
+            48.823398
+          ],
+          [
+            9.180379,
+            48.844142
           ]
         ],
         "type": "LineString"
       },
-      "id": "498b84cd70920dfe07485b937a00afe3"
+      "id": "4a985f9eb67cdc9cd5730c41fd912059"
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
+            7.450965,
+            51.506979
+          ],
+          [
+            7.450778,
+            51.506957
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "4c5c4d728df737be7ef8f6e33dffa897"
     },
     {
       "type": "Feature",
@@ -14860,6 +15133,24 @@
     },
     {
       "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
+            7.45103,
+            51.506974
+          ],
+          [
+            7.450965,
+            51.506979
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "51df347f93a5e43b0a31e2448070e959"
+    },
+    {
+      "type": "Feature",
       "properties": {
         "accuracy": "rough",
         "name": "Ost-Route ",
@@ -14975,7 +15266,9 @@
         "ref": "RS1",
         "from": "Stuttgart",
         "to": "Böblingen/Sindelfingen",
-        "accuracy": "exact"
+        "accuracy": "exact",
+        "copyright": "OpenStreetMap",
+        "state": "built"
       },
       "geometry": {
         "coordinates": [
@@ -16592,6 +16885,58 @@
     {
       "type": "Feature",
       "properties": {
+        "to": "Vaihingen (- Leinfelden-Echterdingen))",
+        "from": "Stuttgart",
+        "accuracy": "corridor",
+        "pilot_study": "https://www.adfc-bw.de/fileadmin/dateien/Gliederungen/KV_Stuttgart/Texte/PDFs/Studie_Juli_2020.pdf",
+        "state": "evaluation"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            9.167577,
+            48.762985
+          ],
+          [
+            9.152055,
+            48.759042
+          ],
+          [
+            9.134735,
+            48.751129
+          ],
+          [
+            9.128197,
+            48.737988
+          ],
+          [
+            9.121226,
+            48.733774
+          ],
+          [
+            9.111448,
+            48.72913
+          ],
+          [
+            9.111046,
+            48.72206
+          ],
+          [
+            9.136034,
+            48.718801
+          ],
+          [
+            9.140918,
+            48.711919
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "5b18b606c6e6da531b6f5898806983e4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "ref": "RS3",
         "from": "Heilbronn",
         "to": "Bad Wimpfen",
@@ -17136,18 +17481,18 @@
     {
       "type": "Feature",
       "properties": {
-        "ref": "RS4/RS14",
+        "ref": "RS4",
         "website": "https://radschnellweg-neckartal.de/",
         "accuracy": "corridor",
         "state": "planning",
         "from": "Stuttgart",
-        "to": "Geislingen"
+        "to": "Reichenbach an der Fils"
       },
       "geometry": {
         "coordinates": [
           [
-            9.175309,
-            48.770853
+            9.191215,
+            48.787061
           ],
           [
             9.211422,
@@ -17178,37 +17523,59 @@
             48.704339
           ],
           [
-            9.466244,
-            48.709385
+            9.464183,
+            48.708977
           ],
           [
-            9.526288,
-            48.714598
-          ],
-          [
-            9.551498,
-            48.718077
-          ],
-          [
-            9.582025,
-            48.704636
-          ],
-          [
-            9.654693,
-            48.700463
-          ],
-          [
-            9.770653,
-            48.679315
-          ],
-          [
-            9.836078,
-            48.619398
+            9.493482,
+            48.712799
           ]
         ],
         "type": "LineString"
       },
       "id": "6656a8b352a1c994ce15e9458dc0ac47"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "accuracy": "corridor",
+        "to": "Wörth am Rhein",
+        "via": "Karlsruhe",
+        "from": "Pfinztal",
+        "pilot_study": "https://www.region-karlsruhe.de/fileadmin/user_upload/4_Projekte/Radschnellverbindungen/Machbarkeitsstudie_RSV/2019_02_08_RVMO_Bericht.pdf",
+        "length": 25,
+        "state": "evaluation"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              8.397665,
+              49.005696
+            ],
+            [
+              8.321016,
+              49.038065
+            ],
+            [
+              8.247979,
+              49.053058
+            ]
+          ],
+          [
+            [
+              8.413206,
+              49.002834
+            ],
+            [
+              8.554088,
+              48.991724
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "id": "67320af3c942b1c3fe9eeb5430271bb4"
     },
     {
       "type": "Feature",
@@ -23318,6 +23685,37 @@
     },
     {
       "type": "Feature",
+      "properties": {
+        "from": "Stuttgart",
+        "to": "Ditzingen",
+        "accuracy": "corridor",
+        "state": "evaluation"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            9.073373,
+            48.826272
+          ],
+          [
+            9.109041,
+            48.81476
+          ],
+          [
+            9.161124,
+            48.811633
+          ],
+          [
+            9.179985,
+            48.810889
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "6ac7baf74d7795a2dadea812d756d5a2"
+    },
+    {
+      "type": "Feature",
       "properties": {},
       "geometry": {
         "coordinates": [
@@ -23843,6 +24241,166 @@
     {
       "type": "Feature",
       "properties": {
+        "ref": "RS1",
+        "state": "planning",
+        "accuracy": "rough",
+        "to": "Herrenberg",
+        "from": "Böblingen"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              9.030203,
+              48.69482
+            ],
+            [
+              9.019174,
+              48.698162
+            ],
+            [
+              9.009561,
+              48.694239
+            ],
+            [
+              8.998618,
+              48.693927
+            ],
+            [
+              8.991569,
+              48.692907
+            ],
+            [
+              8.98158,
+              48.687334
+            ],
+            [
+              8.966732,
+              48.688127
+            ],
+            [
+              8.957676,
+              48.681497
+            ],
+            [
+              8.963277,
+              48.674569
+            ],
+            [
+              8.957848,
+              48.664068
+            ],
+            [
+              8.952484,
+              48.660497
+            ],
+            [
+              8.948729,
+              48.657634
+            ],
+            [
+              8.942162,
+              48.654997
+            ],
+            [
+              8.925833,
+              48.649979
+            ],
+            [
+              8.923838,
+              48.65117
+            ],
+            [
+              8.916177,
+              48.64713
+            ],
+            [
+              8.911478,
+              48.6435
+            ],
+            [
+              8.908796,
+              48.641317
+            ],
+            [
+              8.905985,
+              48.638637
+            ],
+            [
+              8.904182,
+              48.635035
+            ],
+            [
+              8.902294,
+              48.632086
+            ],
+            [
+              8.900277,
+              48.62976
+            ],
+            [
+              8.894323,
+              48.624236
+            ]
+          ],
+          [
+            [
+              8.89429,
+              48.624115
+            ],
+            [
+              8.893625,
+              48.623335
+            ],
+            [
+              8.894441,
+              48.621307
+            ],
+            [
+              8.88869,
+              48.618427
+            ],
+            [
+              8.884677,
+              48.61603
+            ],
+            [
+              8.882982,
+              48.613278
+            ],
+            [
+              8.878712,
+              48.609149
+            ],
+            [
+              8.873991,
+              48.604652
+            ],
+            [
+              8.874678,
+              48.60451
+            ],
+            [
+              8.873369,
+              48.600551
+            ],
+            [
+              8.868799,
+              48.596705
+            ],
+            [
+              8.86322,
+              48.593654
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "id": "7545fd76ba2208811b691cb1ef7094d8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "from": "Offenburg",
         "to": "Appenweier",
         "pilot_study": "https://www.region-suedlicher-oberrhein.de/de/projekte/radschnellwege/Ergaenzende_Untersuchung_MS_Grenzueberschreitender_RSW_OG_Stra.pdf",
@@ -23950,6 +24508,24 @@
       "geometry": {
         "coordinates": [
           [
+            7.119603,
+            51.488165
+          ],
+          [
+            7.11946,
+            51.488125
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "77191a268d3845602ec1408a2cc34a24"
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
             8.61975,
             49.6826
           ],
@@ -24039,6 +24615,50 @@
         "type": "LineString"
       },
       "id": "79d58e1c7bb01d5ca70ca368c34edb2c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "from": "Stuttgart",
+        "to": "Filderstadt",
+        "accuracy": "corridor",
+        "pilot_study": "https://www.adfc-bw.de/fileadmin/dateien/Gliederungen/KV_Stuttgart/Texte/PDFs/Studie_Juli_2020.pdf",
+        "state": "evaluation"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            9.183796,
+            48.77463
+          ],
+          [
+            9.201113,
+            48.764562
+          ],
+          [
+            9.19477,
+            48.754693
+          ],
+          [
+            9.209614,
+            48.72764
+          ],
+          [
+            9.226984,
+            48.710829
+          ],
+          [
+            9.217155,
+            48.707219
+          ],
+          [
+            9.221852,
+            48.693626
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "803d247f3a55e33dce853e7839bbc6ac"
     },
     {
       "type": "Feature",
@@ -24586,6 +25206,24 @@
     },
     {
       "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
+            6.954927,
+            51.45868
+          ],
+          [
+            6.954992,
+            51.458709
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "8e5a1ba5a5509afda377648ed4c8516f"
+    },
+    {
+      "type": "Feature",
       "properties": {
         "accuracy": "corridor",
         "to": "Rust",
@@ -24676,20 +25314,16 @@
       "geometry": {
         "coordinates": [
           [
-            9.183294,
-            48.777521
+            9.171095,
+            48.827217
           ],
           [
-            9.155912,
-            48.814209
+            9.147547,
+            48.836684
           ],
           [
-            9.111905,
-            48.815388
-          ],
-          [
-            9.072159,
-            48.82617
+            9.120516,
+            48.854116
           ],
           [
             9.093649,
@@ -24876,6 +25510,24 @@
         "type": "LineString"
       },
       "id": "a3db754abb66e1c38fd1dfc1e1688e1c"
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
+            6.954843,
+            51.458641
+          ],
+          [
+            6.954927,
+            51.45868
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "a86ebbad93f7d12be42d3bf2c078b684"
     },
     {
       "type": "Feature",
@@ -25863,6 +26515,94 @@
         "type": "LineString"
       },
       "id": "afbb4f5d8629140bd9d54ac4a5e0cfd3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "from": "Stuttgart",
+        "to": "Remseck am Neckar",
+        "state": "evaluation",
+        "pilot_study": "https://www.adfc-bw.de/fileadmin/dateien/Gliederungen/KV_Stuttgart/Texte/PDFs/Studie_Juli_2020.pdf",
+        "accuracy": "corridor"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              9.212681,
+              48.800555
+            ],
+            [
+              9.216382,
+              48.806631
+            ],
+            [
+              9.228855,
+              48.817417
+            ],
+            [
+              9.227613,
+              48.822534
+            ],
+            [
+              9.226136,
+              48.82119
+            ],
+            [
+              9.21747,
+              48.825675
+            ],
+            [
+              9.211715,
+              48.825675
+            ],
+            [
+              9.207071,
+              48.827335
+            ],
+            [
+              9.206671,
+              48.834789
+            ],
+            [
+              9.219559,
+              48.83942
+            ],
+            [
+              9.231336,
+              48.841753
+            ],
+            [
+              9.242625,
+              48.84781
+            ],
+            [
+              9.250355,
+              48.856822
+            ]
+          ],
+          [
+            [
+              9.211264,
+              48.826547
+            ],
+            [
+              9.213678,
+              48.831666
+            ],
+            [
+              9.222001,
+              48.836701
+            ],
+            [
+              9.224736,
+              48.840318
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "id": "b0b0e0ba11ddc355d0d03914667fd9ac"
     },
     {
       "type": "Feature",
@@ -27078,12 +27818,12 @@
       "geometry": {
         "coordinates": [
           [
-            9.071956,
-            48.825956
+            9.092469,
+            48.855938
           ],
           [
-            9.065128,
-            48.824446
+            9.072606,
+            48.827434
           ],
           [
             9.01587,
@@ -35118,6 +35858,46 @@
     },
     {
       "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
+            7.450965,
+            51.506979
+          ],
+          [
+            7.450778,
+            51.506957
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "be84f3cf244a45711708683265d75504"
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
+            6.896452,
+            51.432739
+          ],
+          [
+            6.896492,
+            51.43276
+          ],
+          [
+            6.896574,
+            51.432805
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "bee93ffaca00fda944b63e3df16bf2f9"
+    },
+    {
+      "type": "Feature",
       "properties": {
         "from": "Stuttgart",
         "to": "Leonberg",
@@ -35130,16 +35910,20 @@
       "geometry": {
         "coordinates": [
           [
-            9.177608,
-            48.768472
+            9.166817,
+            48.764488
           ],
           [
-            9.132048,
-            48.759477
+            9.135654,
+            48.76444
           ],
           [
-            9.083493,
-            48.768344
+            9.115778,
+            48.765921
+          ],
+          [
+            9.06827,
+            48.786725
           ],
           [
             9.017913,
@@ -35230,81 +36014,6 @@
         "type": "MultiLineString"
       },
       "id": "c4dbb6d64487865bec44e3b982ab94c7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Radschnellweg Ruhr",
-        "website": "https://www.radschnellwege.nrw/rs1-radschnellweg-ruhr",
-        "accuracy": "corridor",
-        "from": "Duisburg",
-        "to": "Hamm",
-        "length": 104,
-        "ref": "RS1",
-        "state": "partly_built"
-      },
-      "geometry": {
-        "coordinates": [
-          [
-            6.740768,
-            51.406144
-          ],
-          [
-            6.813636,
-            51.415607
-          ],
-          [
-            6.881162,
-            51.427399
-          ],
-          [
-            6.936972,
-            51.452351
-          ],
-          [
-            6.967794,
-            51.463762
-          ],
-          [
-            7.011307,
-            51.462085
-          ],
-          [
-            7.064604,
-            51.47968
-          ],
-          [
-            7.131613,
-            51.498086
-          ],
-          [
-            7.169585,
-            51.49837
-          ],
-          [
-            7.220103,
-            51.489209
-          ],
-          [
-            7.468426,
-            51.514325
-          ],
-          [
-            7.686519,
-            51.559679
-          ],
-          [
-            7.641877,
-            51.655455
-          ],
-          [
-            7.814339,
-            51.679386
-          ]
-        ],
-        "type": "LineString"
-      },
-      "id": "c601c7ea7e7d613eb9c8096601980d58"
     },
     {
       "type": "Feature",
@@ -35454,6 +36163,24 @@
         "type": "LineString"
       },
       "id": "cdfd86e81cc0e390716746794cb9f08f"
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
+            6.886143,
+            51.430836
+          ],
+          [
+            6.886171,
+            51.430848
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "ce0a8501cd831dbcffe0f3d41a73ddba"
     },
     {
       "type": "Feature",
@@ -35612,11 +36339,12 @@
       "type": "Feature",
       "properties": {
         "ref": "RS12",
-        "name": "Offenburg <-> Gengenbach",
         "accuracy": "rough",
         "state": "planning",
         "pilot_study": "https://www.region-suedlicher-oberrhein.de/de/projekte/radschnellwege/Ergaenzende_Untersuchung_MS_OG_GEN.pdf",
-        "website": "https://www.region-suedlicher-oberrhein.de/de/projekte/radschnellwege/index.php"
+        "website": "https://www.region-suedlicher-oberrhein.de/de/projekte/radschnellwege/index.php",
+        "from": "Offenburg",
+        "to": "Gengenbach"
       },
       "geometry": {
         "coordinates": [
@@ -35805,6 +36533,1975 @@
         "type": "LineString"
       },
       "id": "d65d1d0511d9a5b9cd9ac7f9e3e0d16a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "copyright": "OpenStreetMap",
+        "from": "Moers",
+        "name": "Radschnellweg Ruhr",
+        "state": "partly_built",
+        "ref": "RS1",
+        "accuracy": "corridor",
+        "website": "https://www.radschnellwege.nrw/rs1-radschnellweg-ruhr",
+        "to": "Hamm"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              6.630333,
+              51.450232
+            ],
+            [
+              6.664254,
+              51.438297
+            ],
+            [
+              6.717564,
+              51.438193
+            ],
+            [
+              6.747242,
+              51.407122
+            ],
+            [
+              6.813636,
+              51.415607
+            ],
+            [
+              6.855556,
+              51.42768
+            ]
+          ],
+          [
+            [
+              7.01104,
+              51.463207
+            ],
+            [
+              7.01063,
+              51.463057
+            ],
+            [
+              7.009909,
+              51.462879
+            ],
+            [
+              7.009101,
+              51.462751
+            ],
+            [
+              7.007485,
+              51.462499
+            ],
+            [
+              7.006951,
+              51.462427
+            ],
+            [
+              7.005767,
+              51.462265
+            ],
+            [
+              7.005118,
+              51.462177
+            ],
+            [
+              7.004923,
+              51.462148
+            ],
+            [
+              7.004511,
+              51.462108
+            ],
+            [
+              7.003973,
+              51.462086
+            ],
+            [
+              7.003881,
+              51.46209
+            ],
+            [
+              7.003668,
+              51.462099
+            ],
+            [
+              7.003596,
+              51.462102
+            ],
+            [
+              7.003055,
+              51.462127
+            ],
+            [
+              7.003028,
+              51.462127
+            ],
+            [
+              7.002938,
+              51.462133
+            ],
+            [
+              7.002561,
+              51.462157
+            ],
+            [
+              7.001975,
+              51.46222
+            ],
+            [
+              7.0016,
+              51.462273
+            ],
+            [
+              7.001421,
+              51.462305
+            ],
+            [
+              7.001032,
+              51.462392
+            ],
+            [
+              7.00082,
+              51.462448
+            ],
+            [
+              7.000622,
+              51.462505
+            ],
+            [
+              7.000524,
+              51.462534
+            ],
+            [
+              7.000225,
+              51.462634
+            ],
+            [
+              6.99995,
+              51.462759
+            ],
+            [
+              6.999681,
+              51.462896
+            ],
+            [
+              6.999368,
+              51.463091
+            ],
+            [
+              6.998417,
+              51.463725
+            ],
+            [
+              6.998278,
+              51.463815
+            ],
+            [
+              6.998021,
+              51.463978
+            ],
+            [
+              6.997955,
+              51.464013
+            ],
+            [
+              6.997907,
+              51.464036
+            ],
+            [
+              6.997673,
+              51.46413
+            ],
+            [
+              6.997072,
+              51.464344
+            ],
+            [
+              6.996719,
+              51.46444
+            ],
+            [
+              6.996155,
+              51.464565
+            ],
+            [
+              6.995665,
+              51.464655
+            ],
+            [
+              6.994889,
+              51.464768
+            ],
+            [
+              6.993915,
+              51.464888
+            ],
+            [
+              6.991242,
+              51.465217
+            ],
+            [
+              6.98939,
+              51.465417
+            ],
+            [
+              6.989204,
+              51.465439
+            ],
+            [
+              6.989125,
+              51.465448
+            ],
+            [
+              6.988998,
+              51.465437
+            ],
+            [
+              6.988597,
+              51.465467
+            ],
+            [
+              6.988036,
+              51.465516
+            ],
+            [
+              6.987858,
+              51.465536
+            ],
+            [
+              6.987774,
+              51.465545
+            ],
+            [
+              6.986529,
+              51.46564
+            ],
+            [
+              6.986137,
+              51.465673
+            ],
+            [
+              6.985781,
+              51.465708
+            ],
+            [
+              6.985597,
+              51.465731
+            ],
+            [
+              6.985355,
+              51.465759
+            ],
+            [
+              6.983736,
+              51.465833
+            ],
+            [
+              6.983322,
+              51.465855
+            ],
+            [
+              6.983212,
+              51.465858
+            ],
+            [
+              6.982457,
+              51.465891
+            ],
+            [
+              6.982388,
+              51.465895
+            ],
+            [
+              6.981214,
+              51.465958
+            ],
+            [
+              6.980188,
+              51.466016
+            ],
+            [
+              6.979038,
+              51.46612
+            ],
+            [
+              6.977396,
+              51.466275
+            ],
+            [
+              6.977145,
+              51.466288
+            ],
+            [
+              6.977033,
+              51.466294
+            ],
+            [
+              6.976943,
+              51.4663
+            ],
+            [
+              6.976563,
+              51.466318
+            ],
+            [
+              6.974892,
+              51.466393
+            ],
+            [
+              6.97457,
+              51.4664
+            ],
+            [
+              6.974533,
+              51.466399
+            ],
+            [
+              6.974198,
+              51.466394
+            ],
+            [
+              6.973864,
+              51.466389
+            ],
+            [
+              6.973824,
+              51.466387
+            ],
+            [
+              6.973777,
+              51.466384
+            ],
+            [
+              6.973684,
+              51.466373
+            ],
+            [
+              6.973463,
+              51.466338
+            ],
+            [
+              6.97324,
+              51.466288
+            ],
+            [
+              6.973069,
+              51.466241
+            ],
+            [
+              6.973009,
+              51.466225
+            ],
+            [
+              6.972879,
+              51.466187
+            ],
+            [
+              6.972617,
+              51.466109
+            ],
+            [
+              6.971951,
+              51.465912
+            ],
+            [
+              6.97143,
+              51.465722
+            ],
+            [
+              6.971301,
+              51.465666
+            ],
+            [
+              6.970713,
+              51.465397
+            ],
+            [
+              6.969798,
+              51.464941
+            ],
+            [
+              6.96959,
+              51.464837
+            ],
+            [
+              6.969529,
+              51.464789
+            ],
+            [
+              6.967448,
+              51.463768
+            ],
+            [
+              6.967317,
+              51.463719
+            ],
+            [
+              6.967298,
+              51.463709
+            ],
+            [
+              6.96709,
+              51.463608
+            ],
+            [
+              6.967058,
+              51.463591
+            ],
+            [
+              6.966933,
+              51.463527
+            ],
+            [
+              6.966477,
+              51.463297
+            ],
+            [
+              6.966153,
+              51.463119
+            ],
+            [
+              6.96607,
+              51.463073
+            ],
+            [
+              6.965201,
+              51.462662
+            ],
+            [
+              6.964761,
+              51.46245
+            ],
+            [
+              6.964358,
+              51.46226
+            ],
+            [
+              6.964013,
+              51.462108
+            ],
+            [
+              6.96379,
+              51.462007
+            ],
+            [
+              6.963414,
+              51.46185
+            ],
+            [
+              6.963282,
+              51.461802
+            ],
+            [
+              6.962019,
+              51.461346
+            ],
+            [
+              6.961154,
+              51.461038
+            ],
+            [
+              6.960416,
+              51.460757
+            ],
+            [
+              6.960174,
+              51.460671
+            ],
+            [
+              6.96,
+              51.460606
+            ],
+            [
+              6.955641,
+              51.459007
+            ],
+            [
+              6.95533,
+              51.458874
+            ],
+            [
+              6.954992,
+              51.458709
+            ],
+            [
+              6.954927,
+              51.45868
+            ],
+            [
+              6.954843,
+              51.458641
+            ],
+            [
+              6.954506,
+              51.458494
+            ],
+            [
+              6.954279,
+              51.458366
+            ],
+            [
+              6.954037,
+              51.458214
+            ],
+            [
+              6.953861,
+              51.458077
+            ],
+            [
+              6.953722,
+              51.457953
+            ],
+            [
+              6.953531,
+              51.457767
+            ],
+            [
+              6.953419,
+              51.457635
+            ],
+            [
+              6.953216,
+              51.457349
+            ],
+            [
+              6.953177,
+              51.457288
+            ],
+            [
+              6.952844,
+              51.456729
+            ],
+            [
+              6.952496,
+              51.456095
+            ],
+            [
+              6.95205,
+              51.4553
+            ],
+            [
+              6.951851,
+              51.454984
+            ],
+            [
+              6.951598,
+              51.454548
+            ],
+            [
+              6.95147,
+              51.454346
+            ],
+            [
+              6.95134,
+              51.454138
+            ],
+            [
+              6.95131,
+              51.45408
+            ],
+            [
+              6.951256,
+              51.453993
+            ],
+            [
+              6.950998,
+              51.453506
+            ],
+            [
+              6.950813,
+              51.453087
+            ],
+            [
+              6.950783,
+              51.453002
+            ],
+            [
+              6.950731,
+              51.452857
+            ],
+            [
+              6.95047,
+              51.451929
+            ],
+            [
+              6.95044,
+              51.451804
+            ],
+            [
+              6.950213,
+              51.450935
+            ],
+            [
+              6.950118,
+              51.45063
+            ],
+            [
+              6.949991,
+              51.450365
+            ],
+            [
+              6.949857,
+              51.450148
+            ],
+            [
+              6.949685,
+              51.449902
+            ],
+            [
+              6.949505,
+              51.449697
+            ],
+            [
+              6.949316,
+              51.449514
+            ],
+            [
+              6.94906,
+              51.449283
+            ],
+            [
+              6.948855,
+              51.449138
+            ],
+            [
+              6.948592,
+              51.448965
+            ],
+            [
+              6.94841,
+              51.448861
+            ],
+            [
+              6.948232,
+              51.448767
+            ],
+            [
+              6.94765,
+              51.448457
+            ],
+            [
+              6.9465,
+              51.447846
+            ],
+            [
+              6.946247,
+              51.447699
+            ],
+            [
+              6.946024,
+              51.447567
+            ],
+            [
+              6.945764,
+              51.447401
+            ],
+            [
+              6.945503,
+              51.447227
+            ],
+            [
+              6.94485,
+              51.446793
+            ],
+            [
+              6.943569,
+              51.445846
+            ],
+            [
+              6.943267,
+              51.445647
+            ],
+            [
+              6.943032,
+              51.445523
+            ],
+            [
+              6.942722,
+              51.445343
+            ],
+            [
+              6.942241,
+              51.445048
+            ],
+            [
+              6.941795,
+              51.444773
+            ],
+            [
+              6.940924,
+              51.444161
+            ],
+            [
+              6.940477,
+              51.443873
+            ],
+            [
+              6.939967,
+              51.443613
+            ],
+            [
+              6.939217,
+              51.443308
+            ],
+            [
+              6.938585,
+              51.44309
+            ],
+            [
+              6.938006,
+              51.442929
+            ],
+            [
+              6.93734,
+              51.442792
+            ],
+            [
+              6.936749,
+              51.442709
+            ],
+            [
+              6.935784,
+              51.442628
+            ],
+            [
+              6.934814,
+              51.442565
+            ],
+            [
+              6.934278,
+              51.442528
+            ],
+            [
+              6.933318,
+              51.442459
+            ],
+            [
+              6.932876,
+              51.442429
+            ],
+            [
+              6.932145,
+              51.44237
+            ],
+            [
+              6.930905,
+              51.442234
+            ],
+            [
+              6.929668,
+              51.442121
+            ],
+            [
+              6.929079,
+              51.442057
+            ],
+            [
+              6.928511,
+              51.44198
+            ],
+            [
+              6.927951,
+              51.441896
+            ],
+            [
+              6.927177,
+              51.441771
+            ],
+            [
+              6.926421,
+              51.441625
+            ],
+            [
+              6.925235,
+              51.441404
+            ],
+            [
+              6.924518,
+              51.441295
+            ],
+            [
+              6.924138,
+              51.441225
+            ],
+            [
+              6.923593,
+              51.441155
+            ],
+            [
+              6.923085,
+              51.441111
+            ],
+            [
+              6.922646,
+              51.441103
+            ],
+            [
+              6.921993,
+              51.441077
+            ],
+            [
+              6.9214,
+              51.44107
+            ],
+            [
+              6.920807,
+              51.441071
+            ],
+            [
+              6.920762,
+              51.441056
+            ],
+            [
+              6.920453,
+              51.441062
+            ],
+            [
+              6.920309,
+              51.441059
+            ],
+            [
+              6.920179,
+              51.441041
+            ],
+            [
+              6.919883,
+              51.440993
+            ],
+            [
+              6.919744,
+              51.440979
+            ],
+            [
+              6.919634,
+              51.44097
+            ],
+            [
+              6.919603,
+              51.440982
+            ],
+            [
+              6.919297,
+              51.440988
+            ],
+            [
+              6.912502,
+              51.441263
+            ],
+            [
+              6.911603,
+              51.441269
+            ],
+            [
+              6.910883,
+              51.441247
+            ],
+            [
+              6.910787,
+              51.441234
+            ],
+            [
+              6.910538,
+              51.441244
+            ],
+            [
+              6.91015,
+              51.441259
+            ],
+            [
+              6.909953,
+              51.441248
+            ],
+            [
+              6.909588,
+              51.441189
+            ],
+            [
+              6.909401,
+              51.441158
+            ],
+            [
+              6.909358,
+              51.441163
+            ],
+            [
+              6.909031,
+              51.441103
+            ],
+            [
+              6.908821,
+              51.44106
+            ],
+            [
+              6.90845,
+              51.440974
+            ],
+            [
+              6.90808,
+              51.440879
+            ],
+            [
+              6.907744,
+              51.440789
+            ],
+            [
+              6.907378,
+              51.44067
+            ],
+            [
+              6.907032,
+              51.440547
+            ],
+            [
+              6.906692,
+              51.440417
+            ],
+            [
+              6.90639,
+              51.440288
+            ],
+            [
+              6.906098,
+              51.440158
+            ],
+            [
+              6.905821,
+              51.440022
+            ],
+            [
+              6.90542,
+              51.439808
+            ],
+            [
+              6.905157,
+              51.439652
+            ],
+            [
+              6.904905,
+              51.439489
+            ],
+            [
+              6.904658,
+              51.439325
+            ],
+            [
+              6.90451,
+              51.439216
+            ],
+            [
+              6.904369,
+              51.439106
+            ],
+            [
+              6.904238,
+              51.439003
+            ],
+            [
+              6.904116,
+              51.438898
+            ],
+            [
+              6.90387,
+              51.438688
+            ],
+            [
+              6.903789,
+              51.438609
+            ],
+            [
+              6.90357,
+              51.438385
+            ],
+            [
+              6.903443,
+              51.438258
+            ],
+            [
+              6.903257,
+              51.438046
+            ],
+            [
+              6.903077,
+              51.437829
+            ],
+            [
+              6.903002,
+              51.43774
+            ],
+            [
+              6.902618,
+              51.437286
+            ],
+            [
+              6.902428,
+              51.437057
+            ],
+            [
+              6.902226,
+              51.436833
+            ],
+            [
+              6.901961,
+              51.436547
+            ],
+            [
+              6.901794,
+              51.436385
+            ],
+            [
+              6.901785,
+              51.436354
+            ],
+            [
+              6.901394,
+              51.435994
+            ],
+            [
+              6.901237,
+              51.435855
+            ],
+            [
+              6.901119,
+              51.435754
+            ],
+            [
+              6.901039,
+              51.435716
+            ],
+            [
+              6.900794,
+              51.435516
+            ],
+            [
+              6.900656,
+              51.435408
+            ],
+            [
+              6.900367,
+              51.435192
+            ],
+            [
+              6.900068,
+              51.434982
+            ],
+            [
+              6.899697,
+              51.434738
+            ],
+            [
+              6.899315,
+              51.434504
+            ],
+            [
+              6.897553,
+              51.433414
+            ],
+            [
+              6.897528,
+              51.433385
+            ],
+            [
+              6.897373,
+              51.43329
+            ],
+            [
+              6.897057,
+              51.433089
+            ],
+            [
+              6.896574,
+              51.432805
+            ],
+            [
+              6.896492,
+              51.43276
+            ],
+            [
+              6.896452,
+              51.432739
+            ],
+            [
+              6.896416,
+              51.43273
+            ],
+            [
+              6.896179,
+              51.432601
+            ],
+            [
+              6.895929,
+              51.432471
+            ],
+            [
+              6.895317,
+              51.432185
+            ],
+            [
+              6.894997,
+              51.432052
+            ],
+            [
+              6.89467,
+              51.431925
+            ],
+            [
+              6.894409,
+              51.431826
+            ],
+            [
+              6.894162,
+              51.431744
+            ],
+            [
+              6.894079,
+              51.431715
+            ],
+            [
+              6.893494,
+              51.431544
+            ],
+            [
+              6.893038,
+              51.431412
+            ],
+            [
+              6.892584,
+              51.431298
+            ],
+            [
+              6.891816,
+              51.431139
+            ],
+            [
+              6.89111,
+              51.431041
+            ],
+            [
+              6.890378,
+              51.430979
+            ],
+            [
+              6.88984,
+              51.430954
+            ],
+            [
+              6.888795,
+              51.430942
+            ],
+            [
+              6.888121,
+              51.430927
+            ],
+            [
+              6.88745,
+              51.430908
+            ],
+            [
+              6.887103,
+              51.430895
+            ],
+            [
+              6.886881,
+              51.430891
+            ],
+            [
+              6.886744,
+              51.430883
+            ],
+            [
+              6.886171,
+              51.430848
+            ],
+            [
+              6.886143,
+              51.430836
+            ],
+            [
+              6.885718,
+              51.430815
+            ],
+            [
+              6.885313,
+              51.430779
+            ],
+            [
+              6.883937,
+              51.430656
+            ],
+            [
+              6.883606,
+              51.430624
+            ],
+            [
+              6.883322,
+              51.430601
+            ],
+            [
+              6.883009,
+              51.430567
+            ],
+            [
+              6.882523,
+              51.430506
+            ],
+            [
+              6.882152,
+              51.430452
+            ],
+            [
+              6.88196,
+              51.430424
+            ],
+            [
+              6.881873,
+              51.430412
+            ],
+            [
+              6.881097,
+              51.430298
+            ],
+            [
+              6.879958,
+              51.43012
+            ],
+            [
+              6.878525,
+              51.4299
+            ],
+            [
+              6.878348,
+              51.429874
+            ],
+            [
+              6.878054,
+              51.429835
+            ],
+            [
+              6.877927,
+              51.429821
+            ],
+            [
+              6.877714,
+              51.4298
+            ],
+            [
+              6.877562,
+              51.429782
+            ],
+            [
+              6.877345,
+              51.429773
+            ],
+            [
+              6.875572,
+              51.429659
+            ],
+            [
+              6.875514,
+              51.429649
+            ],
+            [
+              6.875456,
+              51.429642
+            ],
+            [
+              6.873695,
+              51.429531
+            ],
+            [
+              6.873097,
+              51.429511
+            ],
+            [
+              6.872768,
+              51.429512
+            ],
+            [
+              6.87249,
+              51.429502
+            ],
+            [
+              6.872316,
+              51.429489
+            ],
+            [
+              6.871081,
+              51.42945
+            ],
+            [
+              6.870923,
+              51.429444
+            ],
+            [
+              6.870553,
+              51.429436
+            ],
+            [
+              6.869848,
+              51.429416
+            ],
+            [
+              6.86978,
+              51.429412
+            ],
+            [
+              6.869618,
+              51.429404
+            ],
+            [
+              6.869102,
+              51.429386
+            ],
+            [
+              6.868006,
+              51.429303
+            ],
+            [
+              6.867531,
+              51.429262
+            ],
+            [
+              6.866631,
+              51.429163
+            ],
+            [
+              6.865688,
+              51.429046
+            ],
+            [
+              6.864485,
+              51.4289
+            ],
+            [
+              6.864278,
+              51.428891
+            ],
+            [
+              6.864116,
+              51.428892
+            ],
+            [
+              6.863967,
+              51.428891
+            ],
+            [
+              6.863825,
+              51.428881
+            ],
+            [
+              6.863685,
+              51.428859
+            ],
+            [
+              6.863521,
+              51.428825
+            ],
+            [
+              6.863319,
+              51.428789
+            ],
+            [
+              6.861383,
+              51.42859
+            ],
+            [
+              6.86013,
+              51.42844
+            ],
+            [
+              6.858899,
+              51.428311
+            ],
+            [
+              6.858527,
+              51.428273
+            ],
+            [
+              6.858045,
+              51.428223
+            ],
+            [
+              6.857622,
+              51.428164
+            ],
+            [
+              6.857117,
+              51.428083
+            ],
+            [
+              6.8567,
+              51.42802
+            ],
+            [
+              6.856382,
+              51.427944
+            ],
+            [
+              6.855998,
+              51.427848
+            ]
+          ],
+          [
+            [
+              7.014282,
+              51.463152
+            ],
+            [
+              7.096339,
+              51.480578
+            ]
+          ],
+          [
+            [
+              7.181767,
+              51.484846
+            ],
+            [
+              7.181124,
+              51.48485
+            ],
+            [
+              7.180194,
+              51.484884
+            ],
+            [
+              7.177855,
+              51.485004
+            ],
+            [
+              7.175533,
+              51.485422
+            ],
+            [
+              7.173156,
+              51.486184
+            ],
+            [
+              7.172112,
+              51.486573
+            ],
+            [
+              7.169893,
+              51.487419
+            ],
+            [
+              7.167462,
+              51.48844
+            ],
+            [
+              7.166036,
+              51.488976
+            ],
+            [
+              7.16396,
+              51.489801
+            ],
+            [
+              7.162941,
+              51.490223
+            ],
+            [
+              7.161911,
+              51.490632
+            ],
+            [
+              7.160209,
+              51.491264
+            ],
+            [
+              7.159585,
+              51.491476
+            ],
+            [
+              7.158961,
+              51.491669
+            ],
+            [
+              7.158054,
+              51.491886
+            ],
+            [
+              7.157147,
+              51.492092
+            ],
+            [
+              7.155888,
+              51.492249
+            ],
+            [
+              7.155152,
+              51.492284
+            ],
+            [
+              7.154175,
+              51.492309
+            ],
+            [
+              7.153167,
+              51.492266
+            ],
+            [
+              7.151244,
+              51.492155
+            ],
+            [
+              7.147791,
+              51.491985
+            ],
+            [
+              7.145917,
+              51.491874
+            ],
+            [
+              7.14354,
+              51.491748
+            ],
+            [
+              7.141923,
+              51.491674
+            ],
+            [
+              7.139175,
+              51.491546
+            ],
+            [
+              7.138538,
+              51.491504
+            ],
+            [
+              7.138367,
+              51.491493
+            ],
+            [
+              7.137851,
+              51.491459
+            ],
+            [
+              7.136848,
+              51.49138
+            ],
+            [
+              7.134778,
+              51.491213
+            ],
+            [
+              7.133679,
+              51.491135
+            ],
+            [
+              7.131905,
+              51.491019
+            ],
+            [
+              7.130059,
+              51.490736
+            ],
+            [
+              7.129219,
+              51.490579
+            ],
+            [
+              7.128447,
+              51.490391
+            ],
+            [
+              7.126999,
+              51.489899
+            ],
+            [
+              7.125981,
+              51.489553
+            ],
+            [
+              7.125722,
+              51.489463
+            ],
+            [
+              7.125377,
+              51.489388
+            ],
+            [
+              7.125295,
+              51.48937
+            ],
+            [
+              7.124974,
+              51.489307
+            ],
+            [
+              7.124842,
+              51.489278
+            ],
+            [
+              7.123342,
+              51.48897
+            ],
+            [
+              7.122801,
+              51.488864
+            ],
+            [
+              7.121721,
+              51.488636
+            ],
+            [
+              7.121493,
+              51.488586
+            ],
+            [
+              7.120552,
+              51.488392
+            ],
+            [
+              7.119603,
+              51.488165
+            ],
+            [
+              7.11946,
+              51.488125
+            ],
+            [
+              7.118585,
+              51.487846
+            ],
+            [
+              7.118266,
+              51.487702
+            ],
+            [
+              7.115177,
+              51.486671
+            ],
+            [
+              7.112543,
+              51.485825
+            ],
+            [
+              7.111843,
+              51.485597
+            ],
+            [
+              7.110865,
+              51.485279
+            ],
+            [
+              7.109546,
+              51.484849
+            ],
+            [
+              7.109313,
+              51.484777
+            ],
+            [
+              7.10771,
+              51.484255
+            ],
+            [
+              7.106681,
+              51.483906
+            ],
+            [
+              7.106114,
+              51.483699
+            ],
+            [
+              7.105278,
+              51.483343
+            ],
+            [
+              7.105165,
+              51.483305
+            ],
+            [
+              7.104267,
+              51.482867
+            ],
+            [
+              7.103519,
+              51.482398
+            ],
+            [
+              7.102774,
+              51.481872
+            ],
+            [
+              7.102505,
+              51.48169
+            ],
+            [
+              7.102101,
+              51.481388
+            ]
+          ],
+          [
+            [
+              7.182325,
+              51.484357
+            ],
+            [
+              7.194136,
+              51.476103
+            ]
+          ],
+          [
+            [
+              7.195054,
+              51.475392
+            ],
+            [
+              7.195438,
+              51.475338
+            ],
+            [
+              7.195561,
+              51.475172
+            ],
+            [
+              7.19582,
+              51.474822
+            ],
+            [
+              7.198442,
+              51.475429
+            ],
+            [
+              7.198829,
+              51.475656
+            ],
+            [
+              7.200772,
+              51.475679
+            ],
+            [
+              7.202822,
+              51.476029
+            ],
+            [
+              7.202953,
+              51.475999
+            ],
+            [
+              7.203392,
+              51.475619
+            ],
+            [
+              7.203594,
+              51.475539
+            ],
+            [
+              7.203701,
+              51.475538
+            ],
+            [
+              7.203915,
+              51.475583
+            ],
+            [
+              7.204119,
+              51.475628
+            ],
+            [
+              7.204922,
+              51.475754
+            ],
+            [
+              7.205213,
+              51.475858
+            ],
+            [
+              7.205566,
+              51.476039
+            ],
+            [
+              7.205679,
+              51.476097
+            ]
+          ],
+          [
+            [
+              7.206348,
+              51.476131
+            ],
+            [
+              7.379322,
+              51.495416
+            ],
+            [
+              7.450728,
+              51.496988
+            ]
+          ],
+          [
+            [
+              7.452465,
+              51.506896
+            ],
+            [
+              7.451109,
+              51.506969
+            ],
+            [
+              7.45103,
+              51.506974
+            ],
+            [
+              7.450965,
+              51.506979
+            ],
+            [
+              7.450778,
+              51.506957
+            ],
+            [
+              7.450716,
+              51.506949
+            ],
+            [
+              7.450606,
+              51.506936
+            ],
+            [
+              7.450019,
+              51.506843
+            ],
+            [
+              7.449445,
+              51.506752
+            ],
+            [
+              7.449175,
+              51.506703
+            ],
+            [
+              7.449074,
+              51.506685
+            ],
+            [
+              7.449096,
+              51.506574
+            ],
+            [
+              7.449114,
+              51.506478
+            ],
+            [
+              7.449194,
+              51.50605
+            ],
+            [
+              7.449238,
+              51.505817
+            ],
+            [
+              7.449336,
+              51.505296
+            ],
+            [
+              7.449352,
+              51.505207
+            ],
+            [
+              7.449366,
+              51.505135
+            ],
+            [
+              7.449523,
+              51.504295
+            ],
+            [
+              7.449536,
+              51.504229
+            ],
+            [
+              7.449548,
+              51.504179
+            ],
+            [
+              7.449754,
+              51.503333
+            ],
+            [
+              7.449868,
+              51.50267
+            ],
+            [
+              7.449871,
+              51.502656
+            ],
+            [
+              7.449899,
+              51.502492
+            ],
+            [
+              7.449912,
+              51.502406
+            ],
+            [
+              7.449943,
+              51.50227
+            ],
+            [
+              7.450013,
+              51.501957
+            ],
+            [
+              7.450043,
+              51.501767
+            ],
+            [
+              7.450042,
+              51.501698
+            ],
+            [
+              7.450041,
+              51.501654
+            ],
+            [
+              7.450037,
+              51.501366
+            ],
+            [
+              7.45003,
+              51.501267
+            ],
+            [
+              7.449961,
+              51.49981
+            ],
+            [
+              7.449945,
+              51.499432
+            ]
+          ],
+          [
+            [
+              7.451449,
+              51.510232
+            ],
+            [
+              7.468426,
+              51.514325
+            ],
+            [
+              7.686519,
+              51.559679
+            ],
+            [
+              7.641877,
+              51.655455
+            ],
+            [
+              7.814339,
+              51.679386
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "id": "d662dba3bc272aafdbbd98f2646d5347"
     },
     {
       "type": "Feature",
@@ -36241,6 +38938,14 @@
             50.104121
           ],
           [
+            8.637867,
+            50.049829
+          ],
+          [
+            8.563853,
+            49.974367
+          ],
+          [
             8.481518,
             49.918566
           ]
@@ -36248,6 +38953,38 @@
         "type": "LineString"
       },
       "id": "e48080e5ed80ec752eec0fb3673b8337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "to": "Möhringen",
+        "from": "Stuttgart",
+        "accuracy": "corridor",
+        "state": "evaluation",
+        "pilot_study": "https://www.adfc-bw.de/fileadmin/dateien/Gliederungen/KV_Stuttgart/Texte/PDFs/Studie_Juli_2020.pdf"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            9.186456,
+            48.769725
+          ],
+          [
+            9.167216,
+            48.746768
+          ],
+          [
+            9.156088,
+            48.729735
+          ],
+          [
+            9.145151,
+            48.726897
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "e8b092d80ef0e9294b7734d83b5b7a3b"
     },
     {
       "type": "Feature",
@@ -38922,6 +41659,36 @@
     },
     {
       "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
+            6.869618,
+            51.429404
+          ],
+          [
+            6.869793,
+            51.429393
+          ],
+          [
+            6.869865,
+            51.429386
+          ],
+          [
+            6.87057,
+            51.429404
+          ],
+          [
+            6.870923,
+            51.429444
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "f3e60777bd9d7248d967a06c36fa61c7"
+    },
+    {
+      "type": "Feature",
       "properties": {
         "from": "Tübingen",
         "to": "Reutlingen",
@@ -39085,6 +41852,24 @@
         "type": "LineString"
       },
       "id": "f8d8ae38fcc51a9ee7ae281efb4c0586"
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
+            7.11946,
+            51.488125
+          ],
+          [
+            7.118585,
+            51.487846
+          ]
+        ],
+        "type": "LineString"
+      },
+      "id": "fb7d6b120a689249e629d3511e333f65"
     },
     {
       "type": "Feature",

@@ -24,7 +24,7 @@ The data model is the following, with example values.
     "name": "Radschnellweg Ruhr RS1", // [optional] only if official name
     "from": "Duisburg",
     "to": "Hamm",
-    "state": "examined | evaluation | planned | planning | under_construction | partly_built | built | not_realised | test",
+    "status": "examined | evaluation | planned | planning | under_construction | partly_built | built | not_realised | test",
     "responsible": "Ministerium für Verkehr des Landes Nordrhein-Westfalen", // contracting authorities
     "federal_state": "Nordrhein-Westfalen",
     "accuracy": "corridor | rough | exact", 

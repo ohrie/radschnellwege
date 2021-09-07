@@ -33,6 +33,7 @@ The data model is the following, with example values.
     "pilot_study": "", // [optional] Link to PDF
     "length": "104.0", // in kilometer
     "finished": "2024", // [optional] Year of finishing or expected finishing 
+    "cost": "", // [optional] Only if information exists
     "copyright": "OpenStreetMap" // [optional] If map data from other source
 }
 ```

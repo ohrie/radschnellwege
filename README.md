@@ -26,13 +26,16 @@ The data model is the following, with example values.
     "name": "Radschnellweg Ruhr RS1", // [optional] only if official name
     "from": "Duisburg",
     "to": "Hamm",
-    "state": "examined | evaluation | planned | planning | under_construction | partly_built | built | not_realised",
-    "accuracy": "corridor | rough | exact",
+    "status": "examined | evaluation | planned | planning | under_construction | partly_built | built | not_realised | test",
+    "responsible": "Ministerium für Verkehr des Landes Nordrhein-Westfalen", // contracting authorities
+    "federal_state": "Nordrhein-Westfalen",
+    "accuracy": "corridor | rough | exact", 
     "osm_relation": "5697663", // [optional] Only if relation exists
     "website": "https://www.radschnellwege.nrw/rs1-radschnellweg-ruhr",
     "pilot_study": "", // [optional] Link to PDF
     "length": "104.0", // in kilometer
     "finished": "2024", // [optional] Year of finishing or expected finishing 
+    "cost": "", // [optional] Only if information exists
     "copyright": "OpenStreetMap" // [optional] If map data from other source
 }
 ```
@@ -41,3 +44,4 @@ The data model is the following, with example values.
 
 - [Explanation of Radschnellweg](https://de.wikipedia.org/wiki/Radschnellweg) in German Wikipedia
 - [List of Radschnellwege](https://de.wikipedia.org/wiki/Liste_der_Radschnellverbindungen_in_Deutschland) in German Wikipedia
+- [Explanation of Cycle Highways](https://cyclehighways.eu/about/what-is-a-cycle-highway.html) in CHIPS EU Project

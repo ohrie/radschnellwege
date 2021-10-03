@@ -3,7 +3,6 @@
     {
       "type": "Feature",
       "properties": {
-        "field": "https://www.m-r-n.com/was-wir-tun/themen-und-projekte/projekte/radfahren-rhein-neckar",
         "from": "Ludwigshafen",
         "to": "Schifferstadt",
         "accuracy": "exact",
@@ -7829,8 +7828,8 @@
             48.716094
           ],
           [
-            9.494733,
-            48.713457
+            9.50542,
+            48.713018
           ]
         ],
         "type": "LineString"
@@ -8760,7 +8759,6 @@
     {
       "type": "Feature",
       "properties": {
-        "field": "exact",
         "state": "planning",
         "length": 10,
         "pilot_study": "https://cloud.vrrn.de/share.cgi/Machbarkeitsstudie%20RSV%20HD%20Schwetzingen.pdf?ssid=09X9y08&fid=09X9y08&path=%2F&filename=Machbarkeitsstudie%20RSV%20HD%20Schwetzingen.pdf",
@@ -9435,6 +9433,84 @@
         "type": "LineString"
       },
       "id": "38ee39a146766ea2dadf49a80efafafa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "accuracy": "corridor",
+        "from": "Kirchheim unter Teck",
+        "to": "Leinfelden-Echterdingen / Esslingen/Wernau",
+        "website": "https://radschnellweg-fildern.de/",
+        "state": "evaluation"
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              9.318645,
+              48.696159
+            ],
+            [
+              9.271832,
+              48.680396
+            ],
+            [
+              9.216241,
+              48.675
+            ],
+            [
+              9.166824,
+              48.689252
+            ],
+            [
+              9.136534,
+              48.699445
+            ],
+            [
+              9.139694,
+              48.709649
+            ]
+          ],
+          [
+            [
+              9.45295,
+              48.648417
+            ],
+            [
+              9.375217,
+              48.676641
+            ],
+            [
+              9.317426,
+              48.69629
+            ],
+            [
+              9.27127,
+              48.719363
+            ],
+            [
+              9.305036,
+              48.737695
+            ]
+          ],
+          [
+            [
+              9.375935,
+              48.676806
+            ],
+            [
+              9.421988,
+              48.695309
+            ],
+            [
+              9.423524,
+              48.703899
+            ]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "id": "3b7efd5dbc43a7cc04204f57f276d40c"
     },
     {
       "type": "Feature",
@@ -13808,7 +13884,7 @@
         "to": "Stuttgart",
         "accuracy": "rough",
         "state": "evaluation",
-        "piloty_study": "https://www.adfc-bw.de/fileadmin/dateien/Gliederungen/KV_Stuttgart/Texte/PDFs/Studie_Juli_2020.pdf"
+        "pilot_study": "https://www.adfc-bw.de/fileadmin/dateien/Gliederungen/KV_Stuttgart/Texte/PDFs/Studie_Juli_2020.pdf"
       },
       "geometry": {
         "coordinates": [
@@ -17527,8 +17603,36 @@
             48.708977
           ],
           [
-            9.493482,
-            48.712799
+            9.470131,
+            48.70906
+          ],
+          [
+            9.475247,
+            48.708214
+          ],
+          [
+            9.480079,
+            48.708751
+          ],
+          [
+            9.48527,
+            48.709908
+          ],
+          [
+            9.489249,
+            48.711166
+          ],
+          [
+            9.493104,
+            48.713276
+          ],
+          [
+            9.497074,
+            48.713166
+          ],
+          [
+            9.504922,
+            48.712611
           ]
         ],
         "type": "LineString"

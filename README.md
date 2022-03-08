@@ -60,7 +60,8 @@ The data model is the following [`JSON Schema`](), with allowed/example values.
         "name": "Radschnellweg Ruhr RS1",
         "from": "Duisburg, Nordrhein-Westfalen", // State MUST be separated after place name
         "to": "Hamm, Nordrhein-Westfalen",
-        "description": "Der RS1 führt auf über 100km von Duisburg nach Hamm unteranderem über Mülheim, Essen, Gelsenkirchen und Dortmund hindurch. Es wurden bereits über 15km fertiggestellt."
+        "description": "Der RS1 führt auf über 100km von Duisburg nach Hamm unteranderem über Mülheim, Essen, Gelsenkirchen und Dortmund hindurch. Es wurden bereits über 15km fertiggestellt.",
+        "slug": "rs1-radschnellweg-ruhr" // manual slug for URLs (no whitespace allowed)
     },
     "stakeholders": [
         {

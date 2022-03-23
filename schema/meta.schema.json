@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/product.schema.json",
+  "title": "MetaJSON for ",
+  "description": "Overview over Radschnellverbindung",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "Distinct id for every cycle highway",
+      "type": "string"
+    },
+    "general":  { "$ref": "/schemas/general" },
+    "stakeholders": {"type": "array"},
+    "status": {"type": "string"},
+    "planning_phase": {"type": "string"},
+    "detail_level": {"type": "string"},
+    "finished": {"type": "string"},
+    "cost": { "type": ["string", "number"]},
+    "references": { "$ref": "/schemas/references" }
+  },
+  "required": ["id", "general", "status"],
+
+  "$defs": {
+    "general": {
+      "$id": "/schemas/general",
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+
+      "type": "object",
+      "properties": {
+        "ref": { "type": "string" },
+        "name": { "type": "string" },
+        "from": { "type": "string" },
+        "to": { "type": "string" },
+        "description": { "type": "string" },
+        "slug": { "type": "string", "description": "Defines an URL slug" }
+      },
+      "required": ["from", "to", "slug"]
+    },
+    "references": {
+      "$id": "/schemas/references",
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+
+      "type": "object",
+      "properties": {
+        "osm_relation": { "type": "string" },
+        "website": { "type": "string" },
+        "copyright:geometry": { "type": "string" }
+      }
+    }
+  }
+}
